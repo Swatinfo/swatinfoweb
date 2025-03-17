@@ -3,19 +3,23 @@ RewriteEngine On
 
 # Automatically detect environment and set appropriate RewriteBase
 RewriteCond %{HTTP_HOST} ^localhost [OR]
-RewriteCond %{HTTP_HOST} ^127\.0\.0\.1
+RewriteCond %{HTTP_HOST} ^127\.0\.0\.1 [OR]
+RewriteCond %{HTTP_HOST} ^localhost:9999 [OR]
+RewriteCond %{HTTP_HOST} ^127\.0\.0\.1:9999
 RewriteRule .* - [E=LOCALHOST:1]
 
 # Set RewriteBase based on environment local environment
-RewriteCond %{ENV:LOCALHOST} 1
-RewriteRule .* - [E=REWRITEBASE:/swatinfoweb]
+#RewriteCond %{ENV:LOCALHOST} 1
+#RewriteRule .* - [E=REWRITEBASE:/swatinfoweb]
 
 # Set RewriteBase based on environment server environment
-RewriteCond %{ENV:LOCALHOST} !1
-RewriteRule .* - [E=REWRITEBASE:/]
+#RewriteCond %{ENV:LOCALHOST} !1
+#RewriteRule .* - [E=REWRITEBASE:/]
 
 # Use the detected RewriteBase
-RewriteBase %{ENV:REWRITEBASE}
+#RewriteBase %{ENV:REWRITEBASE}
+
+RewriteBase /swatinfoweb
 
 # Exclude existing directories and files from rewriting
 RewriteCond %{REQUEST_FILENAME} !-d

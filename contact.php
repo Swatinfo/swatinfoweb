@@ -43,7 +43,7 @@
                         <div class="contact-icon">📍</div>
                         <div class="contact-text">
                             <h4>Our Location</h4>
-                            <p>123 Tech Street, Silicon Valley<br>CA 94000, United States</p>
+                            <p>302, Ornate One Silver Stone Main Road, 150 Feet Ring Road, behind Reliance Mall, Rajkot, Gujarat 360005</p>
                         </div>
                     </div>
 
@@ -51,8 +51,9 @@
                         <div class="contact-icon">📞</div>
                         <div class="contact-text">
                             <h4>Phone Number</h4>
-                            <p>+1 (555) 123-4567</p>
+                            <p>+91 951-071-799</p>
                             <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p>Saturday: 9:00 AM - 2:00 PM</p>
                         </div>
                     </div>
 
@@ -61,7 +62,6 @@
                         <div class="contact-text">
                             <h4>Email Address</h4>
                             <p>info@swatinfosystem.com</p>
-                            <p>sales@swatinfosystem.com</p>
                         </div>
                     </div>
                 </div>
@@ -116,15 +116,15 @@
     </section>
 
     <section class="map-section">
-        <div class="container">
+        <div class="container-map">
             <div class="section-header">
                 <h2>Our Location</h2>
-                <p>Find us at our headquarters in Silicon Valley</p>
+                <p>Find us at our headquarters in Gujarat(India)</p>
             </div>
             <div class="map-container">
                 <!-- Replace with actual map embed code -->
                 <div style="width:100%; height:100%; background-color:#ddd; display:flex; align-items:center; justify-content:center;">
-                    <p style="font-weight:bold;">Google Maps Embed</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.9126812244454!2d70.77547447529197!3d22.281297279700333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca0db9180ef3%3A0x142623483d516157!2sSwat%20Info%20System!5e0!3m2!1sen!2sin!4v1742214868798!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
