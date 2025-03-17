@@ -39,7 +39,7 @@
         if (submitForm) {
             // Toggle menu visibility
             submitForm.addEventListener('click', function (e) {
-                e.preventDefault();
+                
 
                 const firstForm = document.querySelector('form');
                 const formId = firstForm.getAttribute('id');
@@ -54,6 +54,7 @@
                     setupFormSubmission(formId, formSubmitURL);
 
                 } else {
+                    e.preventDefault();
                     console.log("form is invalid");
                 }
             });
@@ -1027,50 +1028,50 @@
         submitButton.innerHTML = 'Sending...';
         submitButton.disabled = true;
 
-        // Get form data
-        const formData = new FormData(form);
+        // // Get form data
+        // const formData = new FormData(form);
 
-        // If you need to see the data (for debugging)
-        /*
-        for (let pair of formData.entries()) {
-            console.log(pair[0] + ': ' + pair[1]);
-        }
-        */
+        // // If you need to see the data (for debugging)
+        // /*
+        // for (let pair of formData.entries()) {
+        //     console.log(pair[0] + ': ' + pair[1]);
+        // }
+        // */
 
-        // Submit the form data
-        fetch(endpoint, {
-            method: 'POST',
-            body: formData
-        })
-            .then(response => {
-                // Check if the response is OK
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                // Reset button
-                submitButton.innerHTML = originalButtonText;
-                submitButton.disabled = false;
+        // // Submit the form data
+        // fetch(endpoint, {
+        //     method: 'POST',
+        //     body: formData
+        // })
+        //     .then(response => {
+        //         // Check if the response is OK
+        //         if (!response.ok) {
+        //             throw new Error('Network response was not ok');
+        //         }
+        //         return response.json();
+        //     })
+        //     .then(data => {
+        //         // Reset button
+        //         submitButton.innerHTML = originalButtonText;
+        //         submitButton.disabled = false;
 
-                if (data.success) {
-                    // Success case
-                    showMessage(formId, data.message || 'Your submission was successful!', 'success');
-                    form.reset();
-                } else {
-                    // Server returned an error
-                    showMessage(formId, data.message || 'There was a problem with your submission.', 'error');
-                }
-            })
-            .catch(error => {
-                // Reset button
-                submitButton.innerHTML = originalButtonText;
-                submitButton.disabled = false;
+        //         if (data.success) {
+        //             // Success case
+        //             showMessage(formId, data.message || 'Your submission was successful!', 'success');
+        //             form.reset();
+        //         } else {
+        //             // Server returned an error
+        //             showMessage(formId, data.message || 'There was a problem with your submission.', 'error');
+        //         }
+        //     })
+        //     .catch(error => {
+        //         // Reset button
+        //         submitButton.innerHTML = originalButtonText;
+        //         submitButton.disabled = false;
 
-                console.error('Error:', error);
-                showMessage(formId, 'An error occurred while sending your data. Please try again later.', 'error');
-            });
+        //         console.error('Error:', error);
+        //         showMessage(formId, 'An error occurred while sending your data. Please try again later.', 'error');
+        //     });
         // });
     }
 })();
