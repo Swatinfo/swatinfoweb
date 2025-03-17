@@ -5,8 +5,8 @@
         <a href="index" class="logo">
             <div class="logo-container">
                 <!-- Conditionally display logo image if available -->
-                <?php if (file_exists('assets/swatinfo_logo.svg') || file_exists('assets/swatinfo_logo.png') || file_exists('assets/swatinfo_logo.jpg')): ?>
-                    <img src="assets/swatinfo_logo.png" alt="Swat Info System Logo" class="logo-image" onerror="this.style.display='none';">
+                <?php if (file_exists('assets/images/swatinfo_logo.svg') || file_exists('assets/images/swatinfo_logo.png') || file_exists('assets/images/swatinfo_logo.jpg')): ?>
+                    <img src="assets/images/swatinfo_logo.png" alt="Swat Info System Logo" class="logo-image" onerror="this.style.display='none';">
                 <?php endif; ?>
 
                 <!-- Text Logo -->
