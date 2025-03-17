@@ -4,14 +4,32 @@
  * Swat Info System - Form Submission Handler
  * 
  * This script processes form submissions from contact and quote forms,
- * sending confirmation emails to clients and notifications to administrators.
+ * sending confirmation emails to clients and notifications to administrators
+ * using SMTP email sending.
  */
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+// Autoload PHPMailer
+require 'vendor/autoload.php';
 
 // Include the email templates
 require_once 'includes/email-templates.php';
 
+// SMTP Configuration
+$smtpConfig = [
+    'host' => 'smtp.gmail.com',     // Your SMTP host
+    'username' => 'info@swatinfosystem.com', // Your email address
+    'password' => 'nutz lgng aoly xxsj',    // App password or SMTP password
+    'port' => 587,                  // Typically 587 for TLS
+    'from_email' => 'info@swatinfosystem.com',
+    'from_name' => 'Swat Info System'
+];
+
 // Set admin email address
-$adminEmail = 'info@swatinfosystem.com';
+$adminEmail = $smtpConfig['from_email'];
 
 // Collect form data
 $formData = $_POST;
@@ -38,16 +56,16 @@ if (!filter_var($formData['email'], FILTER_VALIDATE_EMAIL)) {
 // Process based on form type
 switch ($formType) {
     case 'contact':
-        processContactForm($formData, $adminEmail);
+        processContactForm($formData, $adminEmail, $smtpConfig);
         break;
 
     case 'quote':
-        processQuoteForm($formData, $adminEmail);
+        processQuoteForm($formData, $adminEmail, $smtpConfig);
         break;
 
     default:
         // Default to contact form if not specified
-        processContactForm($formData, $adminEmail);
+        processContactForm($formData, $adminEmail, $smtpConfig);
 }
 
 /**
@@ -55,27 +73,29 @@ switch ($formType) {
  *
  * @param array $data Form data
  * @param string $adminEmail Admin email address
+ * @param array $smtpConfig SMTP Configuration
  * @return void
  */
-function processContactForm($data, $adminEmail)
+function processContactForm($data, $adminEmail, $smtpConfig)
 {
     // Get email templates
     $clientEmailContent = getContactClientEmailTemplate($data);
     $adminEmailContent = getContactAdminEmailTemplate($data);
 
-    // Set up headers for HTML email
-    $headers = getEmailHeaders($adminEmail);
-
     // Send confirmation email to client
     $clientSubject = "Thank you for contacting Swat Info System";
-    mail($data['email'], $clientSubject, $clientEmailContent, $headers);
+    $clientResult = sendSMTPEmail($data['email'], $clientSubject, $clientEmailContent, $smtpConfig);
 
     // Send notification email to admin
     $adminSubject = "New Contact Form Submission: " . (isset($data['subject']) ? $data['subject'] : "General Inquiry");
-    mail($adminEmail, $adminSubject, $adminEmailContent, $headers);
+    $adminResult = sendSMTPEmail($adminEmail, $adminSubject, $adminEmailContent, $smtpConfig);
 
-    // Redirect to thank you page
-    redirectWithSuccess('contact');
+    // Check if both emails were sent successfully
+    if ($clientResult && $adminResult) {
+        redirectWithSuccess('contact');
+    } else {
+        redirectWithError('Failed to send emails');
+    }
 }
 
 /**
@@ -83,44 +103,71 @@ function processContactForm($data, $adminEmail)
  *
  * @param array $data Form data
  * @param string $adminEmail Admin email address
+ * @param array $smtpConfig SMTP Configuration
  * @return void
  */
-function processQuoteForm($data, $adminEmail)
+function processQuoteForm($data, $adminEmail, $smtpConfig)
 {
     // Get email templates
     $clientEmailContent = getQuoteClientEmailTemplate($data);
     $adminEmailContent = getQuoteAdminEmailTemplate($data);
 
-    // Set up headers for HTML email
-    $headers = getEmailHeaders($adminEmail);
-
     // Send confirmation email to client
     $clientSubject = "Thank you for your quote request - Swat Info System";
-    mail($data['email'], $clientSubject, $clientEmailContent, $headers);
+    $clientResult = sendSMTPEmail($data['email'], $clientSubject, $clientEmailContent, $smtpConfig);
 
     // Send notification email to admin
     $adminSubject = "New Quote Request from " . $data['name'];
-    mail($adminEmail, $adminSubject, $adminEmailContent, $headers);
+    $adminResult = sendSMTPEmail($adminEmail, $adminSubject, $adminEmailContent, $smtpConfig);
 
-    // Redirect to thank you page
-    redirectWithSuccess('quote');
+    // Check if both emails were sent successfully
+    if ($clientResult && $adminResult) {
+        redirectWithSuccess('quote');
+    } else {
+        redirectWithError('Failed to send emails');
+    }
 }
 
 /**
- * Generate email headers for HTML email
+ * Send email using SMTP
  *
- * @param string $fromEmail From email address
- * @return string Email headers
+ * @param string $to Recipient email address
+ * @param string $subject Email subject
+ * @param string $body HTML email body
+ * @param array $smtpConfig SMTP configuration
+ * @return bool Whether email was sent successfully
  */
-function getEmailHeaders($fromEmail)
+function sendSMTPEmail($to, $subject, $body, $smtpConfig)
 {
-    $headers = "MIME-Version: 1.0" . "\r\n";
-    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "From: Swat Info System <$fromEmail>" . "\r\n";
-    $headers .= "Reply-To: $fromEmail" . "\r\n";
-    $headers .= "X-Mailer: PHP/" . phpversion();
+    $mail = new PHPMailer(true);
 
-    return $headers;
+    try {
+        // Server settings
+        $mail->isSMTP();
+        $mail->Host       = $smtpConfig['host'];
+        $mail->SMTPAuth   = true;
+        $mail->Username   = $smtpConfig['username'];
+        $mail->Password   = $smtpConfig['password'];
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = $smtpConfig['port'];
+
+        // Set email headers
+        $mail->setFrom($smtpConfig['from_email'], $smtpConfig['from_name']);
+        $mail->addAddress($to);
+        $mail->isHTML(true);
+
+        // Content
+        $mail->Subject = $subject;
+        $mail->Body    = $body;
+
+        // Send email
+        $mail->send();
+        return true;
+    } catch (Exception $e) {
+        // Log the error or handle it as needed
+        error_log('Email sending failed: ' . $mail->ErrorInfo);
+        return false;
+    }
 }
 
 /**

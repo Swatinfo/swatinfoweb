@@ -101,7 +101,7 @@ function getContactClientEmailTemplate($data)
                 <p>If you have any additional information to provide or questions in the meantime, please feel free to reply to this email or call us directly.</p>
                 <div class="contact-info">
                     <p><strong>Contact Information:</strong></p>
-                    <p>Phone: +1 (555) 123-4567<br>
+                    <p>Phone: +91 951-071-799<br>
                     Email: info@swatinfosystem.com</p>
                 </div>
                 <p>We look forward to speaking with you soon!</p>
@@ -352,7 +352,7 @@ function getQuoteClientEmailTemplate($data)
                 <p>If you have any additional information to provide or questions in the meantime, please feel free to reply to this email or call us directly.</p>
                 <div class="contact-info">
                     <p><strong>Contact Information:</strong></p>
-                    <p>Phone: +1 (555) 123-4567<br>
+                    <p>Phone: +91 951-071-799<br>
                     Email: info@swatinfosystem.com</p>
                 </div>
                 <p>We look forward to discussing your project in detail!</p>

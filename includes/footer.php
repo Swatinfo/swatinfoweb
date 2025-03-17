@@ -39,11 +39,11 @@
                 <ul class="footer-contact">
                     <li>
                         <span>📍</span>
-                        <span>123 Tech Street, Silicon Valley, CA 94000</span>
+                        <span>302, Ornate One Silver Stone Main Road, 150 Feet Ring Road, behind Reliance Mall, Rajkot, Gujarat 360005</span>
                     </li>
                     <li>
                         <span>📞</span>
-                        <span>+1 (555) 123-4567</span>
+                        <span>+91 951-071-799</span>
                     </li>
                     <li>
                         <span>✉️</span>
