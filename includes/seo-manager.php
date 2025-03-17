@@ -239,7 +239,7 @@ class SeoManager
             'logo' => $this->defaultConfig['baseUrl'] . 'assets/images/logo.png',
             'contactPoint' => [
                 '@type' => 'ContactPoint',
-                'telephone' => '+1-555-123-4567',
+                'telephone' => '+91-951-071-7999',
                 'contactType' => 'customer service',
                 'areaServed' => 'US',
                 'availableLanguage' => ['English']

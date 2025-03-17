@@ -11,21 +11,28 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
+use Dotenv\Dotenv;
 
 // Autoload PHPMailer
 require 'vendor/autoload.php';
+
+
+// Load environment variables
+$dotenv = Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
 // Include the email templates
 require_once 'includes/email-templates.php';
 
 // SMTP Configuration
 $smtpConfig = [
-    'host' => 'smtp.gmail.com',     // Your SMTP host
-    'username' => 'info@swatinfosystem.com', // Your email address
-    'password' => 'nutz lgng aoly xxsj',    // App password or SMTP password
-    'port' => 587,                  // Typically 587 for TLS
-    'from_email' => 'info@swatinfosystem.com',
-    'from_name' => 'Swat Info System'
+
+    'host'     => $_ENV['SMTP_HOST'],
+    'username' => $_ENV['SMTP_USERNAME'],
+    'password' => $_ENV['SMTP_PASSWORD'],
+    'port'     => $_ENV['SMTP_PORT'],
+    'from_email' => $_ENV['DEFAULT_FROM_EMAIL'],
+    'from_name'  => $_ENV['DEFAULT_FROM_NAME'],
 ];
 
 // Set admin email address

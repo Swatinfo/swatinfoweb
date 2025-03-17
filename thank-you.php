@@ -84,9 +84,13 @@ switch ($formType) {
                     <h3>Have Questions?</h3>
                     <p>If you need immediate assistance, please contact us directly:</p>
                     <ul class="contact-list">
-                        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                        <li><strong>Phone:</strong> +91 951-071-799</li>
                         <li><strong>Email:</strong> info@swatinfosystem.com</li>
-                        <li><strong>Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM</li>
+                        <li>
+                            <strong>Hours:</strong>
+                            Monday - Friday, 9:00 AM - 6:00 PM
+                            <br />Saturday: 9:00 AM - 2:00 PM
+                        </li>
                     </ul>
                 </div>
 
