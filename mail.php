@@ -21,10 +21,10 @@ require_once 'includes/email-templates.php';
 // SMTP Configuration
 $smtpConfig = [
     'host' => 'smtp.gmail.com',     // Your SMTP host
-    'username' => 'your-email@gmail.com', // Your email address
-    'password' => 'your-app-password',    // App password or SMTP password
+    'username' => 'info@swatinfosystem.com', // Your email address
+    'password' => 'nutz lgng aoly xxsj',    // App password or SMTP password
     'port' => 587,                  // Typically 587 for TLS
-    'from_email' => 'your-email@gmail.com',
+    'from_email' => 'info@swatinfosystem.com',
     'from_name' => 'Swat Info System'
 ];
 
