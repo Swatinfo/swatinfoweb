@@ -88,7 +88,11 @@
 
             <div class="quote-form">
                 <h3>Request a Free Quote</h3>
-                <form id="quoteForm" name="quoteForm"  method="post" action="mail.php">
+                <form id="quoteForm" name="quoteForm" method="post" action="mail.php">
+                    <input type="hidden" name="form_type" value="quote">
+
+
+
                     <div class="form-group">
                         <label for="name">Your Name</label>
                         <input type="text" id="name" name="name" class="form-control" required>

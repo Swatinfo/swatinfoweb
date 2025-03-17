@@ -79,7 +79,9 @@
 
             <div class="contact-form">
                 <h3>Send Us a Message</h3>
-                <form id="contactForm" name="contactForm"  method="post" action="mail.php">
+                <form id="contactForm" name="contactForm" method="post" action="mail.php">
+                    <input type="hidden" name="form_type" value="contact">
+
                     <div class="form-group">
                         <label for="name">Your Name</label>
                         <input type="text" id="name" name="name" class="form-control" required>
