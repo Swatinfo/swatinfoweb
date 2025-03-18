@@ -73,10 +73,10 @@ function getContactClientEmailTemplate($data)
                 padding: 15px;
                 border-radius: 5px;
             }
-            .button {
+            .button, .button:visited {
                 display: inline-block;
                 background-color: #2563eb;
-                color: white;
+                color: white !important;
                 padding: 10px 20px;
                 text-decoration: none;
                 border-radius: 5px;
@@ -107,12 +107,12 @@ function getContactClientEmailTemplate($data)
                 <p>We look forward to speaking with you soon!</p>
                 <p>Best regards,<br>
                 Swat Info System Team</p>
-                <a href="https://www.swatinfosystem.com" class="button">Visit Our Website</a>
+                <a href="https://swatinfosystem.com" class="button">Visit Our Website</a>
             </div>
             <div class="footer">
                 &copy; ' . date('Y') . ' Swat Info System. All Rights Reserved.<br>
-                <a href="https://www.swatinfosystem.com/privacy-policy">Privacy Policy</a> | 
-                <a href="https://www.swatinfosystem.com/terms-of-service">Terms of Service</a>
+                <a href="https://swatinfosystem.com/privacy-policy">Privacy Policy</a> | 
+                <a href="https://swatinfosystem.com/terms-of-service">Terms of Service</a>
             </div>
         </div>
     </body>
@@ -193,10 +193,10 @@ function getContactAdminEmailTemplate($data)
                 padding-left: 15px;
                 margin: 15px 0;
             }
-            .button {
+            .button, .button:visited {
                 display: inline-block;
                 background-color: #2563eb;
-                color: white;
+                color: white !important;
                 padding: 10px 20px;
                 text-decoration: none;
                 border-radius: 5px;
@@ -312,10 +312,10 @@ function getQuoteClientEmailTemplate($data)
                 padding: 15px;
                 border-radius: 5px;
             }
-            .button {
+            .button, .button:visited {
                 display: inline-block;
                 background-color: #2563eb;
-                color: white;
+                color: white !important;
                 padding: 10px 20px;
                 text-decoration: none;
                 border-radius: 5px;
@@ -358,12 +358,12 @@ function getQuoteClientEmailTemplate($data)
                 <p>We look forward to discussing your project in detail!</p>
                 <p>Best regards,<br>
                 Swat Info System Team</p>
-                <a href="https://www.swatinfosystem.com/services" class="button">Explore Our Services</a>
+                <a href="https://swatinfosystem.com/services" class="button">Explore Our Services</a>
             </div>
             <div class="footer">
                 &copy; ' . date('Y') . ' Swat Info System. All Rights Reserved.<br>
-                <a href="https://www.swatinfosystem.com/privacy-policy">Privacy Policy</a> | 
-                <a href="https://www.swatinfosystem.com/terms-of-service">Terms of Service</a>
+                <a href="https://swatinfosystem.com/privacy-policy">Privacy Policy</a> | 
+                <a href="https://swatinfosystem.com/terms-of-service">Terms of Service</a>
             </div>
         </div>
     </body>
@@ -445,10 +445,10 @@ function getQuoteAdminEmailTemplate($data)
                 padding-left: 15px;
                 margin: 15px 0;
             }
-            .button {
+            .button, .button:visited {
                 display: inline-block;
                 background-color: #2563eb;
-                color: white;
+                color: white !important;
                 padding: 10px 20px;
                 text-decoration: none;
                 border-radius: 5px;

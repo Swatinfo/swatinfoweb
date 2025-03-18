@@ -8,7 +8,7 @@
  */
 
 // Configuration
-$baseUrl = 'https://www.swatinfosystem.com/';
+$baseUrl = 'https://swatinfosystem.com/';
 $sitemapPath = $_SERVER['DOCUMENT_ROOT'] . '/sitemap.xml';
 
 // Define all website pages with their change frequency and priority
