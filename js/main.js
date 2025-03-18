@@ -1028,6 +1028,8 @@
         submitButton.innerHTML = 'Sending...';
         submitButton.disabled = true;
 
+        form.submit();
+
         // // Get form data
         // const formData = new FormData(form);
 

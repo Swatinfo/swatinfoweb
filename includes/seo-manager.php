@@ -25,7 +25,7 @@ class SeoManager
         'defaultDescription' => 'Transform your business with comprehensive IT services including web development, mobile apps, digital marketing, and custom software solutions by Swat Info System.',
         'defaultKeywords' => 'IT services, web development, mobile app development, digital marketing, software solutions, business transformation',
         'defaultImage' => '/assets/images/og-default.jpg',
-        'baseUrl' => 'https://www.swatinfosystem.com/'
+        'baseUrl' => 'https://swatinfosystem.com/'
     ];
 
     /**
