@@ -51,7 +51,6 @@ error_log
 *.sqlite
 *.sqlite3
 *.db
-.env
 
 # Backup files
 *.bak
