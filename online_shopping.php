@@ -30,7 +30,7 @@
                 <p>Whether you're looking to launch your first online store, upgrade an existing e-commerce platform, or integrate your online and offline retail operations, our tailored ERP solutions can help you achieve your business objectives and stay ahead in the dynamic world of online retail.</p>
             </div>
             <div class="solution-intro-image">
-                <img src="api/placeholder/600/400" alt="E-commerce ERP Solutions" width="100%">
+                <img src="assets/images/Retail-and-E-commerce-ERP.webp" alt="E-commerce ERP Solutions" width="100%">
             </div>
         </div>
     </section>
@@ -85,7 +85,7 @@
             <div class="solutions-container">
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Inventory Management" width="100%">
+                        <img src="assets/images/Parts-Inventory-Management.webp" alt="Inventory Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Inventory & Product Management</h3>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Order Management" width="100%">
+                        <img src="assets/images/OrderManagement.webp" alt="Order Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Order Management & Processing</h3>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Customer Management" width="100%">
+                        <img src="assets/images/Customer-Relationship.webp" alt="Customer Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Customer Relationship Management</h3>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="E-commerce Analytics" width="100%">
+                        <img src="assets/images/E-commerce-Analytics.webp" alt="E-commerce Analytics" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>E-commerce Analytics & Intelligence</h3>
@@ -163,7 +163,8 @@
             </div>
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Increased Conversion Rates</h3>
                     <p>Optimize the shopping journey with accurate inventory, streamlined checkout, personalized experiences, and efficient fulfillment to boost conversions.</p>
                 </div>
@@ -248,19 +249,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our e-commerce clients say about our ERP solutions</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's E-commerce ERP has completely transformed our retail business. The integrated platform has eliminated inventory discrepancies, streamlined our order fulfillment, and given us unprecedented visibility into our business performance. The ability to manage our online store, marketplace listings, and physical location from a single system has improved our efficiency tremendously. Most importantly, we've seen significant growth in sales and customer satisfaction since implementation.</p>
-                <p class="testimonial-author">Rebecca Chen</p>
-                <p class="testimonial-position">CEO, Fashion Boutique Online</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="related-solutions">
         <div class="container">
@@ -271,7 +260,7 @@
             <div class="related-grid">
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Business ERP Solutions" width="100%">
+                        <img src="assets/images/Business-ERP-Solutions.webp" alt="Business ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Business ERP Solutions</h3>
@@ -281,7 +270,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Automobile ERP Solutions" width="100%">
+                        <img src="assets/images/Automobile-Industry-ERP.webp" alt="Automobile ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Automobile ERP Solutions</h3>
@@ -291,7 +280,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Real Estate ERP" width="100%">
+                        <img src="assets/images/Real-Estate-ERP-Solutions.webp" alt="Real Estate ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Real Estate ERP Solutions</h3>

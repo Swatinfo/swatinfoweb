@@ -15,7 +15,7 @@
         <div class="container breadcrumbs-container">
             <a href="">Home</a>
             <span class="separator">/</span>
-            <a href="service">Services</a>
+            <a href="services">Services</a>
             <span class="separator">/</span>
             <span class="current">Digital Marketing</span>
         </div>
@@ -30,7 +30,7 @@
                 <p>Whether you're looking to increase website traffic, generate qualified leads, improve conversion rates, or enhance brand visibility, our tailored digital marketing solutions can help you achieve your goals and stay ahead of the competition.</p>
             </div>
             <div class="service-intro-image">
-                <img src="api/placeholder/600/400" alt="Digital Marketing" width="100%">
+                <img src="assets/images/Digital-Marketing.webp" alt="Digital Marketing" width="100%">
             </div>
         </div>
     </section>
@@ -65,7 +65,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📱</div>
+                    <div class="type-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Social Media Marketing</h3>
                     <p>Build brand awareness, engage your audience, and drive traffic through strategic social media presence and campaigns.</p>
                     <ul class="type-features">
@@ -98,7 +99,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📈</div>
+                    <div class="type-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Analytics & Reporting</h3>
                     <p>Gain valuable insights into your digital marketing performance and make data-driven decisions to optimize results.</p>
                     <ul class="type-features">
@@ -162,7 +164,7 @@
             <div class="features-container">
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Data-Driven Approach" width="100%">
+                        <img src="assets/images/Data-Driven Approach.webp" alt="Data-Driven Approach" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Data-Driven Approach</h3>
@@ -177,7 +179,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Integrated Marketing Strategy" width="100%">
+                        <img src="assets/images/Integrated-Marketing-Strategy.webp" alt="Integrated Marketing Strategy" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Integrated Marketing Strategy</h3>
@@ -192,7 +194,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Targeted Audience Approach" width="100%">
+                        <img src="assets/images/Targeted-Audience-Approach.webp" alt="Targeted Audience Approach" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Targeted Audience Approach</h3>
@@ -209,60 +211,66 @@
         </div>
     </section>
 
-    <section class="tools-section">
+    <section class="technologies">
         <div class="container">
             <div class="section-header">
                 <h2>Tools & Technologies We Use</h2>
                 <p>Advanced platforms and technologies for effective digital marketing campaigns</p>
             </div>
-            <div class="tools-grid">
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>GA</span>
+            <div class="technologies-grid">
+                <div class="tech-logo-item" title="Google Analytics">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/google-analytics.webp"
+                            alt="Google Analytics Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Google Analytics</p>
+                    <span class="tech-name">Google Analytics</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>GS</span>
+                <div class="tech-logo-item" title="Google Search Console">
+                    <div class="tech-logo-wrapper" style="background-color: #4285F41A;">
+                        <img
+                            src="./assets/images/tech-logos/google-search.webp"
+                            alt="Google Search Console Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Google Search Console</p>
+                    <span class="tech-name">Google Search Console</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>FB</span>
+                <div class="tech-logo-item" title="Facebook Business Manager">
+                    <div class="tech-logo-wrapper" style="background-color: #4285F41A;">
+                        <img
+                            src="./assets/images/tech-logos/facebook.webp"
+                            alt="Facebook Business Manager"
+                            class="tech-logo">
                     </div>
-                    <p>Facebook Business Manager</p>
+                    <span class="tech-name">Facebook Business Manager</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>HB</span>
+                <div class="tech-logo-item" title="SEMrush">
+                    <div class="tech-logo-wrapper" style="background-color: #4285F41A;">
+                        <img
+                            src="./assets/images/tech-logos/semrush.webp"
+                            alt="SEMrush Logo"
+                            class="tech-logo">
                     </div>
-                    <p>HubSpot</p>
+                    <span class="tech-name">SEMrush</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>SEMr</span>
+                <div class="tech-logo-item" title="Moz">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/moz.webp"
+                            alt="Moz Logo"
+                            class="tech-logo">
                     </div>
-                    <p>SEMrush</p>
+                    <span class="tech-name">Moz</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>MOZ</span>
+                <div class="tech-logo-item" title="Mailchimp">
+                    <div class="tech-logo-wrapper" style="background-color: #4285F41A;">
+                        <img
+                            src="./assets/images/tech-logos/mailchimp.webp"
+                            alt="Mailchimp Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Moz</p>
-                </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>ML</span>
-                    </div>
-                    <p>Mailchimp</p>
-                </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>HP</span>
-                    </div>
-                    <p>Hootsuite</p>
+                    <span class="tech-name">Mailchimp</span>
                 </div>
             </div>
         </div>
@@ -277,7 +285,7 @@
             <div class="case-studies-grid">
                 <div class="case-study-card">
                     <div class="case-study-image">
-                        <img src="api/placeholder/400/200" alt="E-commerce Growth" width="100%">
+                        <img src="assets/images/E-commerce-Growth.webp" alt="E-commerce Growth" width="100%">
                     </div>
                     <div class="case-study-content">
                         <h3>E-commerce Revenue Growth</h3>
@@ -303,7 +311,7 @@
                 </div>
                 <div class="case-study-card">
                     <div class="case-study-image">
-                        <img src="api/placeholder/400/200" alt="Lead Generation" width="100%">
+                        <img src="assets/images/Lead-Generation.webp" alt="Lead Generation" width="100%">
                     </div>
                     <div class="case-study-content">
                         <h3>B2B Lead Generation</h3>
@@ -331,19 +339,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our digital marketing services</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System has transformed our digital marketing strategy. Their data-driven approach and strategic execution have significantly increased our online visibility and lead generation. The team is responsive, proactive, and truly invested in our success. I highly recommend their digital marketing services to any business looking to grow their online presence.</p>
-                <p class="testimonial-author">Rebecca Thompson</p>
-                <p class="testimonial-position">Marketing Director, GrowTech Solutions</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="faqs">
         <div class="container">

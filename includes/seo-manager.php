@@ -361,7 +361,7 @@ function applySeoSettings()
 
     // Add parent level if applicable
     if (in_array($currentPage, ['website_development', 'webapp_development', 'mobile_app_development', 'digital_marketing', 'ux_ui', 'desktop_application'])) {
-        $breadcrumbs['Services'] = '/service';
+        $breadcrumbs['Services'] = '/services';
     } else if (in_array($currentPage, ['automobile', 'business', 'education', 'tours_travel', 'real_estate', 'online_shopping'])) {
         $breadcrumbs['Solutions'] = '/solution';
     }

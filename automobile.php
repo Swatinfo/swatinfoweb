@@ -30,7 +30,7 @@
                 <p>Whether you're looking to modernize your dealership operations, improve service department efficiency, or optimize your manufacturing processes, our tailored ERP solutions can help you achieve your business objectives and stay ahead in the dynamic automotive industry.</p>
             </div>
             <div class="solution-intro-image">
-                <img src="api/placeholder/600/400" alt="Automobile Industry ERP Solutions" width="100%">
+                <img src="assets/images/Automobile-Industry-ERP.webp" alt="Automobile Industry ERP Solutions" width="100%">
             </div>
         </div>
     </section>
@@ -63,7 +63,8 @@
                     <p>Handling complex financial operations including vehicle financing, leasing, warranty claims, parts pricing, and service billing.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">📈</div>
+                    <div class="challenge-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Data Analysis & Reporting</h3>
                     <p>Generating comprehensive reports and actionable insights from diverse data sources to support strategic decision-making.</p>
                 </div>
@@ -85,7 +86,7 @@
             <div class="solutions-container">
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Dealership Management System" width="100%">
+                        <img src="assets/images/Dealership-Management-System.webp" alt="Dealership Management System" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Dealership Management System</h3>
@@ -102,7 +103,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Service Center Management" width="100%">
+                        <img src="assets/images/Service-Center-Management.webp" alt="Service Center Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Service Center ERP Module</h3>
@@ -119,7 +120,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Parts Inventory Management" width="100%">
+                        <img src="assets/images/Parts-Inventory-Management.webp" alt="Parts Inventory Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Parts & Inventory Management</h3>
@@ -136,7 +137,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Automotive CRM" width="100%">
+                        <img src="assets/images/Automotive-CRM.webp" alt="Automotive CRM" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Automotive CRM & Customer Portal</h3>
@@ -173,7 +174,8 @@
                     <p>Eliminate data silos with a unified system where information flows seamlessly between departments, locations, and business functions.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📱</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Enhanced Customer Experience</h3>
                     <p>Deliver exceptional service with access to complete customer and vehicle histories, personalized communications, and streamlined processes.</p>
                 </div>
@@ -188,7 +190,8 @@
                     <p>Gain better visibility into financial performance with integrated accounting, automated billing, and comprehensive financial reporting.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Scalable Growth</h3>
                     <p>Support business expansion with a flexible ERP platform that can accommodate additional locations, increased volume, and new business lines.</p>
                 </div>
@@ -248,19 +251,6 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our automotive clients say about our ERP solutions</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's Automotive ERP has completely transformed how we operate. The integrated platform has eliminated data silos, streamlined our workflows, and given us unprecedented visibility into our business performance. The ability to track vehicles, parts, customers, and finances in a single system has improved our efficiency tremendously, and the ROI has far exceeded our expectations.</p>
-                <p class="testimonial-author">Michael Johnson</p>
-                <p class="testimonial-position">Operations Director, AutoDrive Dealerships</p>
-            </div>
-        </div>
-    </section>
 
     <section class="related-solutions">
         <div class="container">
@@ -271,7 +261,7 @@
             <div class="related-grid">
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Business ERP Solutions" width="100%">
+                        <img src="assets/images/Business-ERP-Solutions.webp" alt="Business ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Business ERP Solutions</h3>
@@ -281,7 +271,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Real Estate ERP Solutions" width="100%">
+                        <img src="assets/images/Real-Estate-ERP-Solutions.webp" alt="Real Estate ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Real Estate ERP Solutions</h3>
@@ -291,7 +281,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Retail & E-commerce ERP" width="100%">
+                        <img src="assets/images/Retail-and-E-commerce-ERP.webp" alt="Retail & E-commerce ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Retail & E-commerce ERP</h3>

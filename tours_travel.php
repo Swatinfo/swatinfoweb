@@ -30,7 +30,7 @@
                 <p>Whether you're looking to modernize your travel agency operations, improve customer engagement, or optimize your resource allocation, our tailored ERP solutions can help you achieve your business objectives and stay ahead in the dynamic travel industry.</p>
             </div>
             <div class="solution-intro-image">
-                <img src="api/placeholder/600/400" alt="Tours & Travel ERP Solutions" width="100%">
+                <img src="assets/images/Tours_Travel_Solutions.webp" alt="Tours & Travel ERP Solutions" width="100%">
             </div>
         </div>
     </section>
@@ -85,7 +85,7 @@
             <div class="solutions-container">
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Booking & Reservation System" width="100%">
+                        <img src="assets/images/Booking-Reservation-System.webp" alt="Booking & Reservation System" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Booking & Reservation Management</h3>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Itinerary Management" width="100%">
+                        <img src="assets/images/Itinerary-Management.webp" alt="Itinerary Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Itinerary & Operations Management</h3>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Travel CRM" width="100%">
+                        <img src="assets/images/Tours_Travel_Solutions.webp" alt="Travel CRM" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Travel CRM & Customer Portal</h3>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Financial Management" width="100%">
+                        <img src="assets/images/Travel-B2B.webp" alt="Financial Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Financial Management</h3>
@@ -173,7 +173,8 @@
                     <p>Eliminate data silos with a unified system where information flows seamlessly between departments, processes, and business functions.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📱</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Enhanced Customer Experience</h3>
                     <p>Deliver exceptional service with access to complete customer history, personalized offerings, and streamlined booking processes.</p>
                 </div>
@@ -188,7 +189,8 @@
                     <p>Gain better visibility into financial performance with integrated accounting, automated billing, and comprehensive financial reporting.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Scalable Growth</h3>
                     <p>Support business expansion with a flexible ERP platform that can accommodate additional products, services, and markets.</p>
                 </div>
@@ -248,19 +250,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our travel clients say about our ERP solutions</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's Travel ERP has revolutionized how we operate. The integrated platform has eliminated manual processes, streamlined our booking workflow, and given us valuable insights into business performance. The itinerary management tool has been particularly impressive, allowing us to create detailed, dynamic travel plans and manage operations efficiently. Since implementation, we've seen significant improvements in efficiency, accuracy, and customer satisfaction.</p>
-                <p class="testimonial-author">James Wilson</p>
-                <p class="testimonial-position">CEO, Global Adventures Travel</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="related-solutions">
         <div class="container">
@@ -271,7 +261,7 @@
             <div class="related-grid">
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Business ERP Solutions" width="100%">
+                        <img src="assets/images/Business-ERP-Solutions.webp" alt="Business ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Business ERP Solutions</h3>
@@ -281,7 +271,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Real Estate ERP Solutions" width="100%">
+                        <img src="assets/images/Real-Estate-ERP-Solutions.webp" alt="Real Estate ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Real Estate ERP Solutions</h3>
@@ -291,7 +281,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Retail & E-commerce ERP" width="100%">
+                        <img src="assets/images/Retail-and-E-commerce-ERP.webp" alt="Retail & E-commerce ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Retail & E-commerce ERP</h3>

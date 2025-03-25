@@ -1,5 +1,6 @@
 <?php include('includes/header.php'); ?>
 <link rel="stylesheet" href="css/service.css">
+
 <body>
     <!-- Header Include -->
     <?php include('includes/header_menu.php'); ?>
@@ -144,7 +145,7 @@
                 </div>
                 <h3>Discovery & Strategy</h3>
                 <p>Deep dive into your business goals, target audience, and project requirements to develop a strategic roadmap.</p>
-                
+
             </div>
 
             <div class="process-card">
@@ -157,7 +158,7 @@
                 </div>
                 <h3>Design & Conceptualization</h3>
                 <p>Create wireframes, prototypes, and user experience designs that align with your vision and user needs.</p>
-                
+
             </div>
 
             <div class="process-card">
@@ -173,7 +174,7 @@
                 </div>
                 <h3>Development & Integration</h3>
                 <p>Utilize cutting-edge technologies to build robust, scalable solutions with seamless system integrations.</p>
-                
+
             </div>
 
             <div class="process-card">
@@ -190,7 +191,7 @@
                 </div>
                 <h3>Testing & Quality Assurance</h3>
                 <p>Rigorous testing across devices, performance benchmarks, and security protocols to ensure top-tier quality.</p>
-                
+
             </div>
 
             <div class="process-card">
@@ -204,7 +205,7 @@
                 </div>
                 <h3>Deployment & Launch</h3>
                 <p>Smooth implementation with minimal disruption, providing comprehensive support during transition.</p>
-                
+
             </div>
 
             <div class="process-card">
@@ -222,7 +223,7 @@
                 </div>
                 <h3>Continuous Support</h3>
                 <p>Ongoing maintenance, updates, and optimization to keep your digital solutions at the forefront of technology.</p>
-                
+
             </div>
         </div>
     </div>
@@ -273,7 +274,7 @@
                                     <div class="tech-logo-item" title="<?php echo $tech['name']; ?>">
                                         <div class="tech-logo-wrapper" style="background-color: <?php echo $tech['color']; ?>1A;">
                                             <img
-                                                src="/assets/images/tech-logos/<?php echo $tech['logo']; ?>"
+                                                src="./assets/images/tech-logos/<?php echo $tech['logo']; ?>"
                                                 alt="<?php echo $tech['name']; ?> Logo"
                                                 class="tech-logo">
                                         </div>

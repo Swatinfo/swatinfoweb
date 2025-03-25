@@ -14,7 +14,7 @@
         <div class="container breadcrumbs-container">
             <a href="">Home</a>
             <span class="separator">/</span>
-            <a href="service">Services</a>
+            <a href="services">Services</a>
             <span class="separator">/</span>
             <span class="current">Website Development</span>
         </div>
@@ -29,7 +29,7 @@
                 <p>Every website we create is built with modern technologies, search engine optimization in mind, and a focus on conversion-driven design to help you achieve your business goals.</p>
             </div>
             <div class="service-intro-image">
-                <img src="api/placeholder/600/400" alt="Website Development" width="100%">
+                <img src="assets/images/Website_Development_Block.webp" alt="Website Development" width="100%">
             </div>
         </div>
     </section>
@@ -75,7 +75,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📱</div>
+                    <div class="type-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Landing Pages</h3>
                     <p>Conversion-focused pages designed to turn visitors into leads or customers.</p>
                     <ul class="type-features">
@@ -97,7 +98,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🎨</div>
+                    <div class="type-icon">                        <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="80%">
+</div>
                     <h3>Custom Websites</h3>
                     <p>Unique websites built from scratch to meet specific business requirements and stand out from the competition.</p>
                     <ul class="type-features">
@@ -166,7 +168,7 @@
             <div class="features-container">
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Responsive Design" width="100%">
+                        <img src="assets/images/Responsive_Website_Development_Block.webp" alt="Responsive Design" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Responsive Design</h3>
@@ -181,7 +183,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="SEO Optimization" width="100%">
+                        <img src="assets/images/SEO_Website_Development_Block.webp" alt="SEO Optimization" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>SEO Optimization</h3>
@@ -196,7 +198,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="User Experience" width="100%">
+                        <img src="assets/images/User_Experience_Website_Development_Block.webp" alt="User Experience" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>User-Centered Design</h3>
@@ -219,56 +221,86 @@
                 <h2>Technologies We Use</h2>
                 <p>Modern tools and frameworks for robust website development</p>
             </div>
-            <div class="technologies-grid">
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>H</span>
+            <div class="tech-categories-grid-1">
+
+                <div class="tech-category animate-on-scroll">
+                    <div class="tech-logos-grid-1">
+                        <div class="tech-logo-item" title="HTML5">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/HTML5.webp"
+                                    alt="HTML5 Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">HTML5</span>
+                        </div>
+                        <div class="tech-logo-item" title="CSS3">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/CSS.webp"
+                                    alt="CSS3 Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">CSS 3</span>
+                        </div>
+                        <div class="tech-logo-item" title="JavaScript">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/Javascript.webp"
+                                    alt="JavaScript Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">JavaScript</span>
+                        </div>
+                        <div class="tech-logo-item" title="WordPress">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/Wordpress.webp"
+                                    alt="WordPress Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">WordPress</span>
+                        </div>
+                        <div class="tech-logo-item" title="PHP">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/PHP.webp"
+                                    alt="PHP Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">PHP</span>
+                        </div>
+                        <div class="tech-logo-item" title="React">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/react.webp"
+                                    alt="React Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">React</span>
+                        </div>
+                        <div class="tech-logo-item" title="Bootstrap">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/Bootstrap.webp"
+                                    alt="Bootstrap Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">Bootstrap</span>
+                        </div>
+                        <div class="tech-logo-item" title="Tailwind CSS">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/tailwind.webp"
+                                    alt="Tailwind CSS Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">Tailwind CSS</span>
+                        </div>
                     </div>
-                    <p>HTML5</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>C</span>
-                    </div>
-                    <p>CSS3</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>JS</span>
-                    </div>
-                    <p>JavaScript</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>WP</span>
-                    </div>
-                    <p>WordPress</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>Ph</span>
-                    </div>
-                    <p>PHP</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>R</span>
-                    </div>
-                    <p>React</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>B</span>
-                    </div>
-                    <p>Bootstrap</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>T</span>
-                    </div>
-                    <p>Tailwind</p>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -281,7 +313,7 @@
             <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/corporate-website-energy-company.png" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>GreenTech Solutions</h3>
@@ -295,7 +327,7 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/e-commerce-website-fashion-retailer.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>Fashion Boutique</h3>
@@ -309,7 +341,7 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/Images/health-portal.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>Health & Wellness Portal</h3>
@@ -325,19 +357,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our website development services</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System delivered a website that exceeded our expectations. Their team was professional, responsive, and truly understood our business needs. The website has significantly improved our online presence and lead generation capabilities.</p>
-                <p class="testimonial-author">Michael Johnson</p>
-                <p class="testimonial-position">CEO, Alpha Technologies</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="faqs">
         <div class="container">

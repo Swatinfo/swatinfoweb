@@ -1,5 +1,6 @@
 <?php include('includes/header.php'); ?>
 
+
 <body>
     <!-- Header Include -->
     <?php include('includes/header_menu.php'); ?>
@@ -63,7 +64,7 @@
                     <p>"The quote process with Swat Info System was refreshingly thorough and transparent. They took the time to really understand our needs before providing a detailed proposal that addressed all our requirements. There were no surprises along the way."</p>
                     <div class="testimonial-mini-author">
                         <div class="author-avatar">
-                            <img src="api/placeholder/50/50" alt="Client Avatar" width="100%">
+                            <!-- <img src="client_avatar" alt="Client Avatar" width="100%"> -->
                         </div>
                         <div class="author-details">
                             <h5>Michael Thompson</h5>
@@ -76,7 +77,7 @@
             <div class="quote-form">
                 <h3>Request a Free Quote</h3>
                 <form id="quoteForm" name="quoteForm" method="post" action="mail.php">
-                    <input type="hidden" name="form_type" value="quote">
+                    <input type="hidden" name="form_type" id=form_type value="quote">
 
 
 
@@ -151,7 +152,7 @@
                         <label for="timeline">Expected Timeline</label>
                         <select id="timeline" name="timeline" class="form-control">
                             <option value="">Select Expected Timeline</option>
-                            <option value="< 1 month">Less than 1 month</option>
+                            <option value="Less then 1 month">Less than 1 month</option>
                             <option value="1-3 months">1-3 months</option>
                             <option value="3-6 months">3-6 months</option>
                             <option value="6+ months">6+ months</option>
@@ -164,6 +165,9 @@
                         <textarea id="requirements" name="requirements" class="form-control" placeholder="Please describe your project goals, features, and any specific requirements..." required></textarea>
                     </div>
                     <input type="hidden" id="gRecaptchaResponse" name="gRecaptchaResponse">
+
+                    <div class="error-message-text"></div>
+                    <div class="success-message"></div>
 
                     <button type="submit" class="submit-button validateFormData">Submit Quote Request</button>
 

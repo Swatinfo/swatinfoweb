@@ -2,6 +2,7 @@
     "require": {
         "phpmailer/phpmailer": "^6.9",
         "vlucas/phpdotenv": "^5.6",
-        "mattketmo/email-checker": "^2.3"
+        "mattketmo/email-checker": "^2.3",
+        "wixel/gump": "^2.2"
     }
 }

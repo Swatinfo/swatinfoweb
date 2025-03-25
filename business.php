@@ -30,7 +30,7 @@
                 <p>Whether you're a growing small business looking to establish structured processes or an established enterprise seeking to enhance operational efficiency, our customized ERP solutions can help you achieve your business objectives, eliminate redundancies, and gain a competitive edge in your industry.</p>
             </div>
             <div class="solution-intro-image">
-                <img src="api/placeholder/600/400" alt="Business ERP Solutions" width="100%">
+                <img src="assets/images/Business-ERP-Solutions.webp" alt="Business ERP Solutions" width="100%">
             </div>
         </div>
     </section>
@@ -63,12 +63,14 @@
                     <p>Breaking down departmental silos and facilitating seamless information flow and collaboration across the organization.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">📈</div>
+                    <div class="challenge-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Growth Limitations</h3>
                     <p>Providing scalable infrastructure that can grow with your business, accommodating increasing transaction volumes, users, and complexity.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">📱</div>
+                    <div class="challenge-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Mobile Accessibility</h3>
                     <p>Enabling secure access to critical business information and processes from anywhere, supporting remote work and real-time decision-making.</p>
                 </div>
@@ -85,7 +87,7 @@
             <div class="solutions-container">
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Financial Management" width="100%">
+                        <img src="assets/images/Financial-Management.webp" alt="Financial Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Financial Management</h3>
@@ -102,7 +104,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Supply Chain Management" width="100%">
+                        <img src="assets/images/Supply-Chain-Management.webp" alt="Supply Chain Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Supply Chain Management</h3>
@@ -119,7 +121,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Human Resources" width="100%">
+                        <img src="assets/images/Human-Resources.webp" alt="Human Resources" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Human Resources & Payroll</h3>
@@ -136,7 +138,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="CRM & Sales" width="100%">
+                        <img src="assets/images/CRM-and-Sales.webp" alt="CRM & Sales" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>CRM & Sales Management</h3>
@@ -248,19 +250,6 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our ERP solutions</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's ERP solution has revolutionized how we operate. We now have complete visibility across all departments, with real-time data that has dramatically improved our decision-making capabilities. The integration of all our business processes has eliminated redundancies and significantly increased our overall efficiency. The ROI we've seen from this implementation has exceeded our expectations.</p>
-                <p class="testimonial-author">Jonathan Rivera</p>
-                <p class="testimonial-position">Chief Operations Officer, Global Manufacturing Inc.</p>
-            </div>
-        </div>
-    </section>
 
     <section class="related-solutions">
         <div class="container">
@@ -271,7 +260,7 @@
             <div class="related-grid">
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Automotive ERP Solutions" width="100%">
+                        <img src="assets/images/Automobile-Industry-ERP.webp" alt="Automotive ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Automotive ERP Solutions</h3>
@@ -281,7 +270,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Education ERP Solutions" width="100%">
+                        <img src="assets/images/Education-ERP-Solutions.webp" alt="Education ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Education ERP Solutions</h3>
@@ -291,7 +280,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Retail & E-commerce ERP" width="100%">
+                        <img src="assets/images/Real-Estate-ERP-Solutions.webp" alt="Retail & E-commerce ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Retail & E-commerce ERP</h3>

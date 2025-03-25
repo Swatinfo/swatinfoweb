@@ -30,7 +30,7 @@
                 <p>Whether you're looking to modernize your real estate agency operations, improve client engagement, or optimize your property management processes, our tailored ERP solutions can help you achieve your business objectives and stay ahead in the dynamic real estate industry.</p>
             </div>
             <div class="solution-intro-image">
-                <img src="api/placeholder/600/400" alt="Real Estate ERP Solutions" width="100%">
+                <img src="assets/images/Real-Estate-ERP-Solutions.webp" alt="Real Estate ERP Solutions" width="100%">
             </div>
         </div>
     </section>
@@ -68,7 +68,8 @@
                     <p>Accessing and analyzing market data to make informed pricing decisions and provide valuable insights to clients.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">📱</div>
+                    <div class="challenge-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Remote Operations</h3>
                     <p>Enabling agents and property managers to access information and perform tasks while in the field or working remotely.</p>
                 </div>
@@ -85,7 +86,7 @@
             <div class="solutions-container">
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Property Management System" width="100%">
+                        <img src="assets/images/Property-Management.webp" alt="Property Management System" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Property Management System</h3>
@@ -102,7 +103,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Real Estate CRM" width="100%">
+                        <img src="assets/images/Real_Estate_Solutions.webp" alt="Real Estate CRM" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Real Estate CRM</h3>
@@ -119,7 +120,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Transaction Management" width="100%">
+                        <img src="assets/images/Property-Transaction.webp" alt="Transaction Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Transaction Management</h3>
@@ -136,7 +137,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Real Estate Accounting" width="100%">
+                        <img src="assets/images/Real_Estate_Solutions.webp" alt="Real Estate Accounting" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Financial Management</h3>
@@ -173,7 +174,8 @@
                     <p>Eliminate data silos with a unified system where information flows seamlessly between property management, sales, and financial departments.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📱</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Enhanced Client Experience</h3>
                     <p>Provide seamless, personalized client journeys from property search to transaction closing that drive satisfaction and referrals.</p>
                 </div>
@@ -188,7 +190,8 @@
                     <p>Gain better visibility into financial performance with integrated accounting, automated commission calculations, and comprehensive financial reporting.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Scalable Growth</h3>
                     <p>Support business expansion with a flexible ERP platform that can accommodate growing property portfolios, additional agents, and new office locations.</p>
                 </div>
@@ -248,19 +251,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our real estate clients say about our ERP solutions</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's Real Estate ERP has completely transformed how we operate. The integrated platform has eliminated administrative bottlenecks, enabled our agents to focus more on client service rather than paperwork, and provided valuable insights into our business performance. The property management module has streamlined our listing process, and the transaction management system has reduced our closing time by almost 40%. This system has been a game-changer for our agency.</p>
-                <p class="testimonial-author">Amanda Thompson</p>
-                <p class="testimonial-position">Managing Director, Prime Properties</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="related-solutions">
         <div class="container">
@@ -271,7 +262,7 @@
             <div class="related-grid">
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Business ERP Solutions" width="100%">
+                        <img src="assets/images/Business-ERP-Solutions.webp" alt="Business ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Business ERP Solutions</h3>
@@ -281,7 +272,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Tours & Travel ERP" width="100%">
+                        <img src="assets/images/Tours_Travel_Solutions.webp" alt="Tours & Travel ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Tours & Travel ERP</h3>
@@ -291,7 +282,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Retail & E-commerce ERP" width="100%">
+                        <img src="assets/images/Retail-and-E-commerce-ERP.webp" alt="Retail & E-commerce ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Retail & E-commerce ERP</h3>

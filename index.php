@@ -10,9 +10,9 @@
 
     <section class="hero">
         <!-- <div class="hero-overlay"></div> -->
-        <div class="particles">            
+        <div class="particles">
             <div class="particle"></div>
-            <div class="particle"></div>            
+            <div class="particle"></div>
         </div>
         <div class="logo-shield-container">
             <div class="logo-shield"></div>
@@ -24,7 +24,7 @@
             <p>We provide cutting-edge technology services to help businesses grow, innovate, and succeed in the digital landscape.</p>
             <div class="hero-buttons">
                 <a href="get-quote" class="cta-button">Start Your Project</a>
-                <a href="service" class="secondary-button">Explore Services</a>
+                <a href="services" class="secondary-button">Explore Services</a>
             </div>
             <!-- <div class="hero-image">
                 <img src="assets/images/swat_icon.png" alt="Swat Info System IT Solutions" width="100%">
@@ -40,37 +40,44 @@
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">🌐</div>
+                    <div class="service-icon">
+                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="80%">
+                    </div>
                     <h3>Website Development</h3>
                     <p>Custom-built, responsive websites that engage visitors and drive conversions with modern design and functionality.</p>
                     <a href="website_development" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">📱</div>
+                    <div class="service-icon">
+                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+                    </div>
                     <h3>Mobile App Development</h3>
                     <p>Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.</p>
                     <a href="mobile_app_development" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">💻</div>
+                    <div class="service-icon"> <img src="assets/images/icons/web-application.svg" alt="Web Application Development Icon" width="80%">
+                    </div>
                     <h3>Web App Development</h3>
                     <p>Powerful, scalable web applications that streamline processes and enhance productivity for your business.</p>
                     <a href="webapp_development" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">📈</div>
+                    <div class="service-icon"> <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+                    </div>
                     <h3>Digital Marketing</h3>
                     <p>Strategic digital marketing services to increase brand visibility, drive traffic, and generate qualified leads.</p>
                     <a href="digital_marketing" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🎨</div>
+                    <div class="service-icon"> <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="80%">
+                    </div>
                     <h3>UX/UI Design</h3>
                     <p>User-centric design that creates intuitive, engaging interfaces to enhance user satisfaction and loyalty.</p>
                     <a href="ux_ui" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">🖥️</div>
+                    <div class="service-icon"><img src="assets/images/icons/desktop-application.svg" alt="Desktop Icon" width="80%"></div>
                     <h3>Desktop Applications</h3>
                     <p>Custom desktop solutions that optimize workflows and provide powerful tools for your specific needs.</p>
                     <a href="desktop_application" class="learn-more">Learn More →</a>
@@ -145,6 +152,70 @@
                         <p>E-commerce solutions that deliver seamless shopping experiences and drive sales conversions.</p>
                         <a href="online_shopping" class="learn-more">Learn More →</a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tech-stack bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technology Innovation Powerhouse</h2>
+                <p>A curated ecosystem of world-class technologies enabling next-generation digital solutions</p>
+            </div>
+            <div class="technologies-showcase">
+                <?php
+                $technologies = [
+                    'Frontend' => [
+                        ['name' => 'React', 'logo' => 'react.webp', 'color' => '#61DAFB'],
+                        ['name' => 'Vue.js', 'logo' => 'vue.webp', 'color' => '#4FC08D'],
+                        ['name' => 'Angular', 'logo' => 'angularjs.webp', 'color' => '#DD0031'],
+                        ['name' => 'Next.js', 'logo' => 'nextjs.webp', 'color' => '#000000'],
+                        ['name' => 'Tailwind', 'logo' => 'tailwind.webp', 'color' => '#06B6D4']
+                    ],
+                    'Backend' => [
+                        ['name' => 'Node.js', 'logo' => 'nodejs.webp', 'color' => '#339933'],
+                        ['name' => 'Python', 'logo' => 'python.webp', 'color' => '#3776AB'],
+                        // ['name' => '.NET', 'logo' => 'dotnet.webp', 'color' => '#512BD4'],
+                        // ['name' => 'Java', 'logo' => 'java.webp', 'color' => '#007396'],
+                        ['name' => 'PHP', 'logo' => 'php.webp', 'color' => '#777BB3']
+                    ],
+                    'Mobile' => [
+                        ['name' => 'React Native', 'logo' => 'react.webp', 'color' => '#61DAFB'],
+                        ['name' => 'Flutter', 'logo' => 'flutter.webp', 'color' => '#02569B'],
+                        ['name' => 'Swift', 'logo' => 'swift.webp', 'color' => '#F05138'],
+                        ['name' => 'Kotlin', 'logo' => 'kotlin.webp', 'color' => '#7F52FF']
+                    ],
+                    'Database' => [
+                        ['name' => 'MySQL', 'logo' => 'mysql.webp', 'color' => '#4479A1'],
+                        ['name' => 'PostgreSQL', 'logo' => 'postgresql.webp', 'color' => '#336791'],
+                        ['name' => 'MongoDB', 'logo' => 'mongodb.webp', 'color' => '#47A248'],
+                        ['name' => 'Firebase', 'logo' => 'firebase.webp', 'color' => '#FFCA28']
+                    ]
+                ];
+                ?>
+                <div class="tech-categories-grid">
+                    <?php foreach ($technologies as $category => $techs): ?>
+                        <div class="tech-category animate-on-scroll">
+                            <h3><?php echo $category; ?></h3>
+                            <div class="tech-logos-grid">
+                                <?php foreach ($techs as $tech): ?>
+                                    <div class="tech-logo-item" title="<?php echo $tech['name']; ?>">
+                                        <div class="tech-logo-wrapper" style="background-color: <?php echo $tech['color']; ?>1A;">
+                                            <img
+                                                src="./assets/images/tech-logos/<?php echo $tech['logo']; ?>"
+                                                alt="<?php echo $tech['name']; ?> Logo"
+                                                class="tech-logo">
+                                        </div>
+                                        <span class="tech-name"><?php echo $tech['name']; ?></span>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+                <div class="tech-disclaimer text-center mt-4">
+                    <p class="text-gray">Our technology choices are dynamic and evolve with cutting-edge innovations</p>
                 </div>
             </div>
         </div>

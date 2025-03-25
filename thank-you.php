@@ -17,7 +17,7 @@ switch ($formType) {
         $message = "We have received your message and will get back to you as soon as possible, typically within 24 hours during business days.";
         $nextSteps = "In the meantime, feel free to explore our website to learn more about our services and solutions.";
         $buttonText = "Explore Our Services";
-        $buttonLink = "service";
+        $buttonLink = "services";
         break;
 
     case 'quote':

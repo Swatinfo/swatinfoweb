@@ -1,4 +1,5 @@
 <?php include('includes/header.php'); ?>
+<link rel="stylesheet" href="css/solutions.css">
 
 <body>
     <!-- Header Include -->
@@ -51,7 +52,8 @@
                     <p>Leverage specialized modules and features designed to address the unique challenges and requirements of your industry.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📱</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Mobile Accessibility</h3>
                     <p>Access your business systems from anywhere, on any device, allowing for remote work and on-the-go decision making.</p>
                 </div>
@@ -78,7 +80,7 @@
             <div class="solutions-grid">
                 <div class="solution-card">
                     <div class="solution-img">
-                        <img src="api/placeholder/400/200" alt="Automobile ERP Solutions" width="100%">
+                        <img src="assets/images/Automobile-Industry-ERP.webp" alt="Automobile ERP Solutions" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Automobile ERP Solutions</h3>
@@ -94,7 +96,7 @@
                 </div>
                 <div class="solution-card">
                     <div class="solution-img">
-                        <img src="api/placeholder/400/200" alt="Business ERP Solutions" width="100%">
+                        <img src="assets/images/Business-ERP-Solutions.webp" alt="Business ERP Solutions" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Business ERP Solutions</h3>
@@ -110,7 +112,7 @@
                 </div>
                 <div class="solution-card">
                     <div class="solution-img">
-                        <img src="api/placeholder/400/200" alt="Education ERP Solutions" width="100%">
+                        <img src="assets/images/Education-ERP-Solutions.webp" alt="Education ERP Solutions" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Education ERP Solutions</h3>
@@ -126,7 +128,7 @@
                 </div>
                 <div class="solution-card">
                     <div class="solution-img">
-                        <img src="api/placeholder/400/200" alt="Tours & Travel ERP Solutions" width="100%">
+                        <img src="assets/images/Tours_Travel_Solutions.webp" alt="Tours & Travel ERP Solutions" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Tours & Travel ERP Solutions</h3>
@@ -142,7 +144,7 @@
                 </div>
                 <div class="solution-card">
                     <div class="solution-img">
-                        <img src="api/placeholder/400/200" alt="Real Estate ERP Solutions" width="100%">
+                        <img src="assets/images/Real-Estate-ERP-Solutions.webp" alt="Real Estate ERP Solutions" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Real Estate ERP Solutions</h3>
@@ -158,7 +160,7 @@
                 </div>
                 <div class="solution-card">
                     <div class="solution-img">
-                        <img src="api/placeholder/400/200" alt="E-commerce ERP Solutions" width="100%">
+                        <img src="assets/images/Retail-and-E-commerce-ERP.webp" alt="E-commerce ERP Solutions" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>E-commerce ERP Solutions</h3>
@@ -176,46 +178,64 @@
         </div>
     </section>
 
-    <section class="erp-approach">
-        <div class="container">
-            <div class="section-header">
-                <h2>Our ERP Implementation Approach</h2>
-                <p>A systematic methodology to ensure successful deployment and adoption</p>
+    <!-- <section class="erp-approach"> -->
+    <div class="container">
+        <div class="header-service">
+            <h2>Our ERP Implementation Approach</h2>
+            <p>A systematic methodology to ensure successful deployment and adoption</p>
+        </div>
+        <div class="process-grid">
+            <div class="process-card">
+                <div class="process-number">01</div>
+                <div class="process-icon">
+                    <img src="assets/images/icons/analysis.svg" alt="Business Analysis Icon" width="80%" style="color:white;">
+                </div>
+                <h3>Business Analysis & Requirements</h3>
+                <p>We conduct a thorough analysis of your current processes, challenges, and requirements to define the optimal ERP solution for your business.</p>
             </div>
-            <div class="approach-steps">
-                <div class="approach-step">
-                    <div class="step-icon">1</div>
-                    <h3>Business Analysis & Requirements</h3>
-                    <p>We conduct a thorough analysis of your current processes, challenges, and requirements to define the optimal ERP solution for your business.</p>
+            <div class="process-card">
+                <div class="process-number">02</div>
+                <div class="process-icon">
+                    <img src="assets/images/icons/design.svg" alt="Business Analysis Icon" width="70%" style="color:white;">
                 </div>
-                <div class="approach-step">
-                    <div class="step-icon">2</div>
-                    <h3>Solution Design & Configuration</h3>
-                    <p>We design and configure the ERP system to match your specific needs, including customizations, integrations, and data migration planning.</p>
+                <h3>Solution Design & Configuration</h3>
+                <p>We design and configure the ERP system to match your specific needs, including customizations, integrations, and data migration planning.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-number">03</div>
+                <div class="process-icon">
+                    <img src="assets/images/icons/development.svg" alt="Business Analysis Icon" width="70%" style="color:white;">
                 </div>
-                <div class="approach-step">
-                    <div class="step-icon">3</div>
-                    <h3>Development & Integration</h3>
-                    <p>Our experts implement the solution, develop necessary customizations, and integrate with existing systems to ensure seamless data flow.</p>
+                <h3>Development & Integration</h3>
+                <p>Our experts implement the solution, develop necessary customizations, and integrate with existing systems to ensure seamless data flow.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-number">04</div>
+                <div class="process-icon">
+                    <img src="assets/images/icons/testing.svg" alt="Business Analysis Icon" width="70%" style="color:white;">
                 </div>
-                <div class="approach-step">
-                    <div class="step-icon">4</div>
-                    <h3>Testing & Quality Assurance</h3>
-                    <p>We rigorously test the system to ensure functionality, performance, data integrity, and user experience meet the highest standards.</p>
+                <h3>Testing & Quality Assurance</h3>
+                <p>We rigorously test the system to ensure functionality, performance, data integrity, and user experience meet the highest standards.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-number">05</div>
+                <div class="process-icon">
+                    <img src="assets/images/icons/training.svg" alt="Business Analysis Icon" width="70%" style="color:white;">
                 </div>
-                <div class="approach-step">
-                    <div class="step-icon">5</div>
-                    <h3>Training & Change Management</h3>
-                    <p>We provide comprehensive training to your team and implement change management strategies to ensure successful adoption.</p>
+                <h3>Training & Change Management</h3>
+                <p>We provide comprehensive training to your team and implement change management strategies to ensure successful adoption.</p>
+            </div>
+            <div class="process-card">
+                <div class="process-number">06</div>
+                <div class="process-icon">
+                    <img src="assets/images/icons/deployment.svg" alt="Business Analysis Icon" width="70%" style="color:white;">
                 </div>
-                <div class="approach-step">
-                    <div class="step-icon">6</div>
-                    <h3>Deployment & Ongoing Support</h3>
-                    <p>After successful deployment, we provide ongoing support, maintenance, and enhancement services to maximize your ERP investment.</p>
-                </div>
+                <h3>Deployment & Ongoing Support</h3>
+                <p>After successful deployment, we provide ongoing support, maintenance, and enhancement services to maximize your ERP investment.</p>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- </section> -->
 
     <section class="case-studies">
         <div class="container">
@@ -226,41 +246,27 @@
             <div class="case-studies-grid">
                 <div class="case-study-card">
                     <div class="case-study-image">
-                        <img src="api/placeholder/400/200" alt="Manufacturing ERP Case Study" width="100%">
+                        <img src="assets/images/Business_Solutions.webp" alt="Manufacturing ERP Case Study" width="100%">
                     </div>
                     <div class="case-study-content">
                         <h3>Manufacturing Enterprise Transformation</h3>
                         <p>A mid-sized manufacturing company implemented our integrated ERP solution to unify their operations across multiple locations, resulting in a 32% increase in operational efficiency and 28% reduction in costs.</p>
-                        <a href="#" class="learn-more">Read Full Case Study →</a>
                     </div>
                 </div>
                 <div class="case-study-card">
                     <div class="case-study-image">
-                        <img src="api/placeholder/400/200" alt="Educational Institution ERP Case Study" width="100%">
+                        <img src="assets/images/Education-ERP-Solutions.webp" alt="Educational Institution ERP Case Study" width="100%">
                     </div>
                     <div class="case-study-content">
                         <h3>Educational Institution Modernization</h3>
                         <p>A growing educational institution with 5 campuses deployed our Education ERP, streamlining administration and enhancing student experiences, leading to a 40% reduction in administrative workload.</p>
-                        <a href="#" class="learn-more">Read Full Case Study →</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our ERP solutions</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's ERP solution has revolutionized how we operate. We now have complete visibility across all departments, with real-time data that has dramatically improved our decision-making capabilities. The integration of all our business processes has eliminated redundancies and significantly increased our overall efficiency. The ROI we've seen from this implementation has exceeded our expectations.</p>
-                <p class="testimonial-author">Jonathan Rivera</p>
-                <p class="testimonial-position">Chief Operations Officer, Global Manufacturing Inc.</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="cta">
         <div class="container">
