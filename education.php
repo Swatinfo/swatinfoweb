@@ -30,7 +30,7 @@
                 <p>Whether you're looking to modernize your school management, enhance student experience, or optimize resource allocation, our tailored ERP solutions can help you achieve your institutional objectives and stay ahead in the evolving education landscape.</p>
             </div>
             <div class="solution-intro-image">
-                <img src="api/placeholder/600/400" alt="Education ERP Solutions" width="100%">
+                <img src="assets/images/Education-ERP-Solutions.webp" alt="Education ERP Solutions" width="100%">
             </div>
         </div>
     </section>
@@ -63,7 +63,8 @@
                     <p>Efficiently handling fee collection, financial aid, budgeting, accounting, and financial reporting across the institution.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">📱</div>
+                    <div class="challenge-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Communication Gaps</h3>
                     <p>Facilitating effective communication and information sharing between administration, faculty, students, and parents/guardians.</p>
                 </div>
@@ -85,7 +86,7 @@
             <div class="solutions-container">
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Student Information System" width="100%">
+                        <img src="assets/images/Student-Information-System.webp" alt="Student Information System" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Student Information System (SIS)</h3>
@@ -102,7 +103,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Academic Management" width="100%">
+                        <img src="assets/images/Academic-Management.webp" alt="Academic Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Academic Management</h3>
@@ -119,7 +120,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Financial Management" width="100%">
+                        <img src="assets/images/Education-Financial-Management.webp" alt="Financial Management" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Financial Management</h3>
@@ -136,7 +137,7 @@
                 </div>
                 <div class="solution-item">
                     <div class="solution-image">
-                        <img src="api/placeholder/600/400" alt="Learning Management System" width="100%">
+                        <img src="assets/images/Learning-Management-System.webp" alt="Learning Management System" width="100%">
                     </div>
                     <div class="solution-content">
                         <h3>Learning Management System (LMS)</h3>
@@ -178,7 +179,8 @@
                     <p>Leverage comprehensive analytics and reporting to make informed decisions based on real-time data about student performance, resource utilization, and financial metrics.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📱</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Enhanced Communication</h3>
                     <p>Improve collaboration and information sharing between administration, faculty, students, and parents through integrated communication channels.</p>
                 </div>
@@ -188,7 +190,8 @@
                     <p>Ensure data security, privacy, and regulatory compliance with robust security features and role-based access controls.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📈</div>
+                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Institutional Growth</h3>
                     <p>Support expansion with a scalable platform that can accommodate growing student numbers, new programs, and additional campuses.</p>
                 </div>
@@ -248,19 +251,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our education clients say about our ERP solutions</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's education ERP has revolutionized how we operate. The integrated platform has eliminated administrative bottlenecks, enabled our teachers to focus more on teaching rather than paperwork, and provided valuable insights into student performance. The parent portal has significantly improved communication and engagement with families, and the financial management module has streamlined our fee collection and budgeting processes.</p>
-                <p class="testimonial-author">Dr. Sarah Johnson</p>
-                <p class="testimonial-position">Principal, EduTech Academy</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="related-solutions">
         <div class="container">
@@ -271,7 +262,7 @@
             <div class="related-grid">
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Business ERP Solutions" width="100%">
+                        <img src="assets/images/Business-ERP-Solutions.webp" alt="Business ERP Solutions" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Business ERP Solutions</h3>
@@ -281,7 +272,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Tours & Travel ERP" width="100%">
+                        <img src="assets/images/Tours_Travel_Solutions.webp" alt="Tours & Travel ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Tours & Travel ERP</h3>
@@ -291,7 +282,7 @@
                 </div>
                 <div class="related-card">
                     <div class="related-image">
-                        <img src="api/placeholder/400/200" alt="Real Estate ERP" width="100%">
+                        <img src="assets/images/Real-Estate-ERP-Solutions.webp" alt="Real Estate ERP" width="100%">
                     </div>
                     <div class="related-content">
                         <h3>Real Estate ERP</h3>

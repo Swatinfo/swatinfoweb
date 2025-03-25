@@ -17,7 +17,7 @@
         <div class="container breadcrumbs-container">
             <a href="">Home</a>
             <span class="separator">/</span>
-            <a href="service">Services</a>
+            <a href="services">Services</a>
             <span class="separator">/</span>
             <span class="current">Web App Development</span>
         </div>
@@ -45,7 +45,9 @@
             </div>
             <div class="types-grid">
                 <div class="type-card">
-                    <div class="type-icon">🌐</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="80%">
+                    </div>
                     <h3>Enterprise Applications</h3>
                     <p>Comprehensive solutions that integrate multiple business functions and streamline operations across your organization.</p>
                     <ul class="type-features">
@@ -67,7 +69,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📱</div>
+                    <div class="type-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+</div>
                     <h3>Progressive Web Apps</h3>
                     <p>Web applications that offer native-like experiences with offline capabilities, push notifications, and home screen installation.</p>
                     <ul class="type-features">
@@ -169,7 +172,7 @@
             <div class="features-container">
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Scalable Architecture" width="100%">
+                        <img src="assets/images/Scalable_Architecture.webp" alt="Scalable Architecture" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Scalable Architecture</h3>
@@ -184,7 +187,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Security First" width="100%">
+                        <img src="assets/images/Security.webp" alt="Security First" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Security First Approach</h3>
@@ -199,7 +202,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Intuitive User Experience" width="100%">
+                        <img src="assets/images/User_Experience_Website_Development_Block.webp" alt="Intuitive User Experience" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Intuitive User Experience</h3>
@@ -222,56 +225,79 @@
                 <h2>Technologies We Use</h2>
                 <p>Modern frameworks and tools for robust web application development</p>
             </div>
-            <div class="technologies-grid">
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>R</span>
+            <div class="tech-categories-grid-1">
+
+                <div class="tech-category animate-on-scroll">
+                    <div class="tech-logos-grid-1">
+                        <div class="tech-logo-item" title="React">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/react.webp"
+                                    alt="React Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">React</span>
+                        </div>
+                        <div class="tech-logo-item" title="Angular">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/angularjs.webp"
+                                    alt="Angular Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">Angular</span>
+                        </div>
+                        <div class="tech-logo-item" title="Vue js">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/vue.webp"
+                                    alt="Vue j Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">Vue js</span>
+                        </div>
+                        <div class="tech-logo-item" title="Node js">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/nodejs.webp"
+                                    alt="Node js Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">Node js</span>
+                        </div>
+                        <div class="tech-logo-item" title="Python">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/python.webp"
+                                    alt="Python Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">Python</span>
+                        </div>
+                        <div class="tech-logo-item" title="PostgreSQL">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/postgresql.webp"
+                                    alt="PostgreSQL Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">PostgreSQL</span>
+                        </div>
+
+                        <div class="tech-logo-item" title="MongoDB">
+                            <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                                <img
+                                    src="./assets/images/tech-logos/mongodb.webp"
+                                    alt="MongoDB Logo"
+                                    class="tech-logo">
+                            </div>
+                            <span class="tech-name">MongoDB</span>
+                        </div>
+
                     </div>
-                    <p>React</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>A</span>
-                    </div>
-                    <p>Angular</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>V</span>
-                    </div>
-                    <p>Vue.js</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>N</span>
-                    </div>
-                    <p>Node.js</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>P</span>
-                    </div>
-                    <p>Python</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>.N</span>
-                    </div>
-                    <p>.NET Core</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>Pg</span>
-                    </div>
-                    <p>PostgreSQL</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>M</span>
-                    </div>
-                    <p>MongoDB</p>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -284,7 +310,7 @@
             <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/MedicalDashboard.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>HealthTrack Patient Portal</h3>
@@ -298,7 +324,7 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/ProjectManagement.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>ProjectFlow Management Tool</h3>
@@ -312,7 +338,7 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/FinInsight.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>FinInsight Analytics Dashboard</h3>
@@ -320,7 +346,7 @@
                         <div class="portfolio-tags">
                             <span class="portfolio-tag">Finance</span>
                             <span class="portfolio-tag">Angular</span>
-                            <span class="portfolio-tag">.NET Core</span>
+                            <span class="portfolio-tag">Laravel</span>
                         </div>
                     </div>
                 </div>
@@ -328,19 +354,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our web application development services</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System delivered a web application that transformed our business operations. Their team took the time to understand our unique challenges and created a solution that not only met but exceeded our expectations. The application has significantly improved our efficiency and provided valuable insights for our decision-making process.</p>
-                <p class="testimonial-author">Jennifer Reynolds</p>
-                <p class="testimonial-position">Operations Director, TechCorp Industries</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="faqs">
         <div class="container">

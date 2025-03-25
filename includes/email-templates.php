@@ -18,6 +18,10 @@ function getContactClientEmailTemplate($data)
     $name = htmlspecialchars($data['name']);
     $email = htmlspecialchars($data['email']);
     $company = isset($data['company']) ? htmlspecialchars($data['company']) : 'N/A';
+    $phone = isset($data['phone']) ? htmlspecialchars($data['phone']) : 'Not provided';
+    $subject = isset($data['subject']) ? htmlspecialchars($data['subject']) : 'General Inquiry';
+    $message = isset($data['message']) ? nl2br(htmlspecialchars($data['message'])) : 'No message content';
+    $date = date('F j, Y, g:i a');
 
     $template = '
     <!DOCTYPE html>
@@ -73,6 +77,11 @@ function getContactClientEmailTemplate($data)
                 padding: 15px;
                 border-radius: 5px;
             }
+            .message-content {
+                border-left: 3px solid #2563eb;
+                padding-left: 15px;
+                margin: 15px 0;
+            }
             .button, .button:visited {
                 display: inline-block;
                 background-color: #2563eb;
@@ -96,8 +105,13 @@ function getContactClientEmailTemplate($data)
                 <ul>
                     <li><strong>Name:</strong> ' . $name . '</li>
                     <li><strong>Email:</strong> ' . $email . '</li>
-                    ' . ($company !== 'N/A' ? '<li><strong>Company:</strong> ' . $company . '</li>' : '') . '
+                    <li><strong>Phone:</strong> ' . $phone . '</li>
+                    <li><strong>Subject:</strong> ' . $subject . '</li>                    
                 </ul>
+                 <p><strong>Message:</strong></p>
+                <div class="message-content">
+                    ' . $message . '
+                </div>
                 <p>If you have any additional information to provide or questions in the meantime, please feel free to reply to this email or call us directly.</p>
                 <div class="contact-info">
                     <p><strong>Contact Information:</strong></p>
@@ -220,8 +234,7 @@ function getContactAdminEmailTemplate($data)
                     <ul>
                         <li><strong>Name:</strong> ' . $name . '</li>
                         <li><strong>Email:</strong> ' . $email . '</li>
-                        <li><strong>Phone:</strong> ' . $phone . '</li>
-                        <li><strong>Company:</strong> ' . $company . '</li>
+                        <li><strong>Phone:</strong> ' . $phone . '</li>                        
                         <li><strong>Subject:</strong> ' . $subject . '</li>
                         <li><strong>Date:</strong> ' . $date . '</li>
                     </ul>
@@ -257,6 +270,9 @@ function getQuoteClientEmailTemplate($data)
     $email = htmlspecialchars($data['email']);
     $company = isset($data['company']) ? htmlspecialchars($data['company']) : 'N/A';
     $services = isset($data['services']) && is_array($data['services']) ? implode(', ', array_map('htmlspecialchars', $data['services'])) : 'Not specified';
+    $timeline = isset($data['timeline']) ? htmlspecialchars($data['timeline']) : 'Not specified';
+    $requirements = isset($data['requirements']) ? nl2br(htmlspecialchars($data['requirements'])) : 'No requirements provided';
+    $date = date('F j, Y, g:i a');
 
     $template = '
     <!DOCTYPE html>
@@ -312,6 +328,11 @@ function getQuoteClientEmailTemplate($data)
                 padding: 15px;
                 border-radius: 5px;
             }
+            .requirements-content {
+                border-left: 3px solid #2563eb;
+                padding-left: 15px;
+                margin: 15px 0;
+            }
             .button, .button:visited {
                 display: inline-block;
                 background-color: #2563eb;
@@ -344,7 +365,14 @@ function getQuoteClientEmailTemplate($data)
                     <li><strong>Email:</strong> ' . $email . '</li>
                     <li><strong>Company:</strong> ' . $company . '</li>
                     <li><strong>Services Requested:</strong> ' . $services . '</li>
+                    
+                    <li><strong>Timeline:</strong> ' . $timeline . '</li>
+                    <li><strong>Submission Date:</strong> ' . $date . '</li>
                 </ul>
+                 <p><strong>Project Requirements:</strong></p>
+                <div class="requirements-content">
+                    ' . $requirements . '
+                </div>
                 <div class="next-steps">
                     <h3>Next Steps</h3>
                     <p>Our team will review your requirements and prepare a detailed, customized quote for your project. You can expect to hear from us within 2 business days.</p>

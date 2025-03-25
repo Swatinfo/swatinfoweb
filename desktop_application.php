@@ -15,7 +15,7 @@
         <div class="container breadcrumbs-container">
             <a href="">Home</a>
             <span class="separator">/</span>
-            <a href="service">Services</a>
+            <a href="services">Services</a>
             <span class="separator">/</span>
             <span class="current">Desktop Applications</span>
         </div>
@@ -30,7 +30,7 @@
                 <p>Whether you need a standalone business application, a system utility, or a complex enterprise solution, our expert developers can create high-performance desktop software that addresses your unique challenges and helps your business thrive.</p>
             </div>
             <div class="service-intro-image">
-                <img src="api/placeholder/600/400" alt="Desktop Application Development" width="100%">
+                <img src="assets/images/Desktop-Application-Development.webp" alt="Desktop Application Development" width="100%">
             </div>
         </div>
     </section>
@@ -54,7 +54,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📈</div>
+                    <div class="type-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+</div>
                     <h3>Data Analysis Tools</h3>
                     <p>Powerful applications for data processing, analysis, and visualization that help businesses make informed decisions.</p>
                     <ul class="type-features">
@@ -87,7 +88,7 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🖥️</div>
+                    <div class="type-icon"><img src="assets/images/icons/desktop-application.svg" alt="Desktop Icon" width="80%"></div>
                     <h3>Cross-Platform Applications</h3>
                     <p>Applications that work seamlessly across Windows, macOS, and Linux, ensuring consistent functionality for all users.</p>
                     <ul class="type-features">
@@ -167,7 +168,7 @@
             <div class="features-container">
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="High Performance" width="100%">
+                        <img src="assets/images/High-Performance.webp" alt="High Performance" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>High Performance & Reliability</h3>
@@ -182,7 +183,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Seamless Integration" width="100%">
+                        <img src="assets/images/Seamless-Integration.webp" alt="Seamless Integration" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Seamless Integration Capabilities</h3>
@@ -197,7 +198,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="User-Friendly Design" width="100%">
+                        <img src="assets/images/User-Centered-Approach.webp" alt="User-Friendly Design" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>User-Friendly Design</h3>
@@ -214,64 +215,7 @@
         </div>
     </section>
 
-    <section class="technologies">
-        <div class="container">
-            <div class="section-header">
-                <h2>Technologies We Use</h2>
-                <p>Modern frameworks and tools for robust desktop application development</p>
-            </div>
-            <div class="technologies-grid">
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>.NET</span>
-                    </div>
-                    <p>.NET Framework</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>C#</span>
-                    </div>
-                    <p>C#</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>Java</span>
-                    </div>
-                    <p>Java</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>C++</span>
-                    </div>
-                    <p>C++</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>Qt</span>
-                    </div>
-                    <p>Qt Framework</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>Py</span>
-                    </div>
-                    <p>Python</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>SQL</span>
-                    </div>
-                    <p>SQL Databases</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>EF</span>
-                    </div>
-                    <p>Electron Framework</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <section class="portfolio">
         <div class="container">
@@ -282,21 +226,21 @@
             <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/Parts-Inventory-Management.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>Inventory Management System</h3>
                         <p>A comprehensive inventory management solution for a retail chain, featuring real-time tracking, automated reordering, barcode integration, and detailed reporting capabilities.</p>
                         <div class="portfolio-tags">
                             <span class="portfolio-tag">Business Application</span>
-                            <span class="portfolio-tag">.NET Framework</span>
+                            <span class="portfolio-tag">Laravel Framework</span>
                             <span class="portfolio-tag">SQL Server</span>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/Financial-Management.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>Financial Analysis Tool</h3>
@@ -310,7 +254,7 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/Multi-System-Integration-Platform.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>Multi-System Integration Platform</h3>
@@ -326,19 +270,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our desktop application development services</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System developed a custom inventory management application that transformed our operations. The system is incredibly intuitive yet powerful, seamlessly integrating with our existing database and providing real-time insights we never had before. The efficiency gains we've achieved have paid for the investment many times over.</p>
-                <p class="testimonial-author">Robert Anderson</p>
-                <p class="testimonial-position">Operations Director, Global Retail Solutions</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="faqs">
         <div class="container">
@@ -371,7 +303,7 @@
                         <span>+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Yes, we specialize in cross-platform desktop application development that works seamlessly across Windows, macOS, and Linux. We use technologies like Electron, Qt, Java, and .NET Core that enable us to create applications with consistent functionality and user experience across different operating systems, often from a single codebase. This approach reduces development time and maintenance costs while ensuring all your users can access your application regardless of their preferred platform.</p>
+                        <p>Yes, we specialize in cross-platform desktop application development that works seamlessly across Windows, macOS, and Linux. We use technologies like Electron that enable us to create applications with consistent functionality and user experience across different operating systems, often from a single codebase. This approach reduces development time and maintenance costs while ensuring all your users can access your application regardless of their preferred platform.</p>
                     </div>
                 </div>
                 <div class="faq-item">

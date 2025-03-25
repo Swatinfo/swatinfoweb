@@ -20,7 +20,7 @@
             <a href="index" class="nav-link">Home</a>
             <a href="about" class="nav-link">About Us</a>
             <div class="dropdown">
-                <a href="service" class="nav-link">Services</a>
+                <a href="services" class="nav-link">Services</a>
                 <div class="dropdown-content">
                     <a href="website_development" class="dropdown-link">Website Development</a>
                     <a href="webapp_development" class="dropdown-link">Web App Development</a>

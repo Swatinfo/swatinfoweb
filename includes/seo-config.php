@@ -22,7 +22,7 @@ $seoConfig = [
     ],
 
     // Services
-    'service' => [
+    'services' => [
         'title' => 'IT Services - Web, Mobile & Digital Solutions',
         'description' => 'Explore Swat Info System\'s comprehensive IT services including website development, mobile apps, digital marketing, UX/UI design, and custom software solutions.',
         'keywords' => 'IT services, web development, mobile app development, digital marketing, UX/UI design, custom software, desktop applications',
@@ -147,5 +147,20 @@ $seoConfig = [
         'description' => 'Request a free quote for your project. Our team will analyze your requirements and provide a detailed proposal for web development, mobile apps, digital marketing and more.',
         'keywords' => 'quote, estimate, project quote, IT services quote, software development quote, custom software pricing',
         'ogImage' => 'assets/images/swatinfo_logo.png'
-    ]
+    ],
+    // Privacy Policy
+    'privacy_policy' => [
+        'title' => 'Privacy Policy - Swat Info System',
+        'description' => 'Read Swat Info System\'s privacy policy to understand how we collect, use, and protect your personal information when using our services and applications.',
+        'keywords' => 'privacy policy, data protection, personal information, user privacy, app privacy, GDPR compliance, data security, privacy terms',
+        'ogImage' => 'assets/images/swatinfo_logo.png'
+    ],
+
+    // Terms and Conditions
+    'terms' => [
+        'title' => 'Terms and Conditions - Swat Info System',
+        'description' => 'Review the terms and conditions for using Swat Info System\'s services, applications, and websites. Understand your rights and obligations as a user.',
+        'keywords' => 'terms and conditions, terms of service, user agreement, legal terms, service terms, usage policy, application terms',
+        'ogImage' => 'assets/images/swatinfo_logo.png'
+    ],
 ];

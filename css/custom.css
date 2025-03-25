@@ -205,7 +205,7 @@ header {
   top: 100%;
   left: 0;
   background-color: white;
-  min-width: 200px;
+  min-width: 240px;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   padding: var(--spacing-sm) 0;
@@ -264,7 +264,7 @@ header {
 
 .breadcrumbs a,
 .breadcrumbs span {
-  color: var(--gray);
+  color: var(--gray-dark);
   font-size: 0.875rem;
 }
 
@@ -452,7 +452,7 @@ footer {
 }
 
 .footer-col ul li a {
-  color: var(--gray);
+  color: var(--gray-dark);
   transition: color var(--transition-speed);
 }
 
@@ -1161,7 +1161,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   background-color: var(--gray-light);
   border-radius: 50%;
   transition: background-color var(--transition-speed);
@@ -1201,7 +1201,7 @@ footer {
 }
 
 .challenge-icon {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--primary);
   margin-bottom: var(--spacing-md);
 }
@@ -1232,6 +1232,7 @@ footer {
   padding: var(--spacing-md);
   background-color: var(--gray-light);
   border-radius: var(--border-radius);
+  margin-bottom: 1rem;
 }
 
 .result-number {
@@ -1243,7 +1244,7 @@ footer {
 
 .result-text {
   font-size: 0.875rem;
-  color: var(--gray);
+  color: var(--gray-dark);
 }
 
 /* Related Solutions Styles */
@@ -1314,6 +1315,7 @@ footer {
   justify-content: center;
   color: white;
   flex-shrink: 0;
+  font-size: 2.0rem !important;
 }
 
 /* Map Section */
@@ -1370,6 +1372,29 @@ footer {
   }
 }
 
+.type-card p,
+.service-card p,
+.solution-card p,
+.challenge-card p,
+.benefit-card p,
+.feature-card p,
+.value-item p {
+  color: var(--gray-dark);
+}
+.type-features li,
+.service-features li,
+.solution-features li,
+.feature-points li {
+  color: var(--gray-dark);
+}
+.service-intro-content p,
+.solution-intro-content p,
+.about-content p {
+  color: var(--gray-dark);
+}
+.section-header p {
+  color: var(--gray-dark);
+}
 .type-icon,
 .service-icon,
 .challenge-icon,
@@ -1378,7 +1403,9 @@ footer {
 .value-icon {
   margin: 0 auto;
   margin-bottom: 1.25em;
-  background-color: #2563eba6 !important;
+  /* background-color: #2563eba6 !important; */
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  font-size: 2.0rem !important;
 }
 .portfolio-image,
 .case-study-image,
@@ -1391,8 +1418,9 @@ footer {
   display: none;
 }
 
-
-.service-intro-image, .solution-intro-image, .about-image {
+.service-intro-image,
+.solution-intro-image,
+.about-image {
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: none !important;
@@ -1403,11 +1431,21 @@ footer {
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
+.tech-categories-grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
 
 .tech-logos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   gap: 1rem;
+}
+.tech-logos-grid-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 5rem;
 }
 
 .tech-logo-item {
@@ -1434,8 +1472,10 @@ footer {
 }
 
 .tech-logo {
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
+  width: 90%;
+  height: 90%;
   object-fit: contain;
 }
 
@@ -1447,6 +1487,23 @@ footer {
 
 @media (max-width: 768px) {
   .tech-categories-grid {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
+}
+.error-message-text {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.gump-field {
+  font-weight: bold;
+}
+.cta::before {
+  position: relative !important;
+}
+.secondary-button:hover {
+  background-color: var(--primary);
+  color: white !important;
+  border: 2px solid var(--primary) !important;
 }

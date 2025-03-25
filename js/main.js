@@ -35,7 +35,7 @@
         // to ensure all DOM manipulations are complete
         setTimeout(highlightCurrentPage, 100);
 
-        const submitForm = document.querySelector('.validateFormData');
+        /*const submitForm = document.querySelector('.validateFormData');
         if (submitForm) {
             // Toggle menu visibility
             submitForm.addEventListener('click', function (e) {
@@ -50,7 +50,7 @@
                 // console.log("came here to submit form" + formId);
                 if (validateForm(formId)) {
 
-                    getRecaptchaToken(firstForm)
+                    // getRecaptchaToken(firstForm, formSubmitURL)
 
                     console.log("form is valid");
 
@@ -61,18 +61,12 @@
                     console.log("form is invalid");
                 }
             });
-        }
+        }*/
     });
 
 
-    function getRecaptchaToken(form) {
-        grecaptcha.ready(function() {
-            grecaptcha.execute($reCAPTCHA_site_key, {action: 'contactForm'}).then(function(token) {
-                gRecaptchaResponse.value = token //set the value of the hidden field
-                form.submit() //submit the form
-            });
-        });
-    }
+    
+
     /**
      * Initialize main navigation functionality
      */
@@ -1026,67 +1020,7 @@
         const form = document.getElementById(formId);
         if (!form) return;
 
-        /* form.addEventListener('submit', function (e) {
-             e.preventDefault();
- 
-             // Validate the form first
-             if (!validateForm(this)) {
-                 return false;
-             }*/
-
-        // Show loading state
-        const submitButton = form.querySelector('[type="submit"]');
-        const originalButtonText = submitButton.innerHTML;
-        submitButton.innerHTML = 'Sending...';
-        submitButton.disabled = true;
-
-        form.submit();
-
-        // // Get form data
-        // const formData = new FormData(form);
-
-        // // If you need to see the data (for debugging)
-        // /*
-        // for (let pair of formData.entries()) {
-        //     console.log(pair[0] + ': ' + pair[1]);
-        // }
-        // */
-
-        // // Submit the form data
-        // fetch(endpoint, {
-        //     method: 'POST',
-        //     body: formData
-        // })
-        //     .then(response => {
-        //         // Check if the response is OK
-        //         if (!response.ok) {
-        //             throw new Error('Network response was not ok');
-        //         }
-        //         return response.json();
-        //     })
-        //     .then(data => {
-        //         // Reset button
-        //         submitButton.innerHTML = originalButtonText;
-        //         submitButton.disabled = false;
-
-        //         if (data.success) {
-        //             // Success case
-        //             showMessage(formId, data.message || 'Your submission was successful!', 'success');
-        //             form.reset();
-        //         } else {
-        //             // Server returned an error
-        //             showMessage(formId, data.message || 'There was a problem with your submission.', 'error');
-        //         }
-        //     })
-        //     .catch(error => {
-        //         // Reset button
-        //         submitButton.innerHTML = originalButtonText;
-        //         submitButton.disabled = false;
-
-        //         console.error('Error:', error);
-        //         showMessage(formId, 'An error occurred while sending your data. Please try again later.', 'error');
-        //     });
-        // });
+       
     }
 
     function createParticles() {

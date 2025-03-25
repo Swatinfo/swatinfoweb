@@ -67,7 +67,7 @@
             <div class="contact-form">
                 <h3>Send Us a Message</h3>
                 <form id="contactForm" name="contactForm" method="post" action="mail.php">
-                    <input type="hidden" name="form_type" value="contact">
+                    <input type="hidden" name="form_type" id="form_type" value="contact">
 
                     <div class="form-group">
                         <label for="name">Your Name</label>
@@ -95,6 +95,9 @@
                     </div>
                     <input type="hidden" id="gRecaptchaResponse" name="gRecaptchaResponse">
 
+                    <div class="error-message-text"></div>
+                    <div class="success-message"></div>
+
                     <button type="submit" class="submit-button validateFormData">Send Message</button>
 
                     <p class="form-note">We'll get back to you within 24 hours.</p>
@@ -102,6 +105,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="map-section">
         <div class="container-map">

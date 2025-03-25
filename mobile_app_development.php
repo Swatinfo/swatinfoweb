@@ -15,7 +15,7 @@
         <div class="container breadcrumbs-container">
             <a href="">Home</a>
             <span class="separator">/</span>
-            <a href="service">Services</a>
+            <a href="services">Services</a>
             <span class="separator">/</span>
             <span class="current">Mobile App Development</span>
         </div>
@@ -30,7 +30,7 @@
                 <p>From concept to launch and beyond, we work closely with you to ensure your mobile application meets your business objectives, delights your users, and evolves with your changing needs.</p>
             </div>
             <div class="service-intro-image">
-                <img src="api/placeholder/600/400" alt="Mobile App Development" width="100%">
+                <img src="assets/images/Mobile_App_Development.webp" alt="Mobile App Development" width="100%">
             </div>
         </div>
     </section>
@@ -76,7 +76,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🌐</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="80%">
+                    </div>
                     <h3>Progressive Web Apps</h3>
                     <p>Web applications that provide a mobile app-like experience with offline capabilities and home screen installation.</p>
                     <ul class="type-features">
@@ -167,7 +169,7 @@
             <div class="features-container">
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Intuitive User Experience" width="100%">
+                        <img src="assets/images/Intuitive-User-Experience.webp" alt="Intuitive User Experience" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Intuitive User Experience</h3>
@@ -182,7 +184,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Performance Optimization" width="100%">
+                        <img src="assets/images/High-Performance.webp" alt="Performance Optimization" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Performance Optimization</h3>
@@ -197,7 +199,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Robust Security" width="100%">
+                        <img src="assets/images/Security.webp" alt="Robust Security" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Robust Security</h3>
@@ -221,88 +223,86 @@
                 <p>Modern frameworks and tools for robust mobile app development</p>
             </div>
             <div class="technologies-grid">
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>S</span>
+                <div class="tech-logo-item" title="Swift">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/Swift.webp"
+                            alt="Swift Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Swift</p>
+                    <span class="tech-name">Swift</span>
                 </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>K</span>
+                <div class="tech-logo-item" title="Kotlin">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/Kotlin.webp"
+                            alt="Kotlin Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Kotlin</p>
+                    <span class="tech-name">Kotlin</span>
                 </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>RN</span>
+                <div class="tech-logo-item" title="React Native">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/react.webp"
+                            alt="React Native Logo"
+                            class="tech-logo">
                     </div>
-                    <p>React Native</p>
+                    <span class="tech-name">React Native</span>
                 </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>F</span>
+                <div class="tech-logo-item" title="Flutter">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/flutter.webp"
+                            alt="Flutter Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Flutter</p>
+                    <span class="tech-name">Flutter</span>
                 </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>FBS</span>
+                <div class="tech-logo-item" title="Firebase">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/firebase.webp"
+                            alt="Firebase Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Firebase</p>
+                    <span class="tech-name">Firebase</span>
                 </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>RX</span>
-                    </div>
-                    <p>RxSwift/RxJava</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>GL</span>
-                    </div>
-                    <p>GraphQL</p>
-                </div>
-                <div class="technology-item">
-                    <div class="technology-icon">
-                        <span>AR</span>
-                    </div>
-                    <p>ARKit/ARCore</p>
-                </div>
+
             </div>
         </div>
     </section>
 
-    <section class="app-showcase">
+    <section class="portfolio">
         <div class="container">
             <div class="section-header">
                 <h2>App Showcase</h2>
                 <p>Some of our recent mobile app development projects</p>
             </div>
-            <div class="showcase-grid">
-                <div class="showcase-item">
-                    <div class="showcase-image">
-                        <img src="api/placeholder/300/600" alt="Mobile App Showcase" width="100%">
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/images/HealthTrack.webp" alt="Mobile App Showcase" width="100%">
                     </div>
-                    <div class="showcase-content">
+                    <div class="portfolio-content">
                         <h3>HealthTrack</h3>
                         <p>A comprehensive health and fitness tracking app with personalized workout plans, nutrition tracking, and progress analytics.</p>
                     </div>
                 </div>
-                <div class="showcase-item">
-                    <div class="showcase-image">
-                        <img src="api/placeholder/300/600" alt="Mobile App Showcase" width="100%">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/images/EcoShop.webp" alt="Mobile App Showcase" width="100%">
                     </div>
-                    <div class="showcase-content">
+                    <div class="portfolio-content">
                         <h3>EcoShop</h3>
-                        <p>An e-commerce application for sustainable products with AR product visualization and carbon footprint tracking.</p>
+                        <p>An e-commerce application for sustainable products with AR product visualization and order tracking.</p>
                     </div>
                 </div>
-                <div class="showcase-item">
-                    <div class="showcase-image">
-                        <img src="api/placeholder/300/600" alt="Mobile App Showcase" width="100%">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="assets/images/TaskMaster.webp" alt="Mobile App Showcase" width="100%">
                     </div>
-                    <div class="showcase-content">
+                    <div class="portfolio-content">
                         <h3>TaskMaster</h3>
                         <p>A productivity app for teams with task management, communication tools, and real-time project tracking.</p>
                     </div>
@@ -311,19 +311,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our mobile app development services</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System delivered a mobile application that exceeded our expectations in both functionality and design. Their team took the time to truly understand our business needs and created an intuitive, feature-rich app that our customers love. The app has significantly increased our customer engagement and revenue.</p>
-                <p class="testimonial-author">David Wilson</p>
-                <p class="testimonial-position">CEO, HealthTech Solutions</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="faqs">
         <div class="container">

@@ -15,7 +15,7 @@
         <div class="container breadcrumbs-container">
             <a href="">Home</a>
             <span class="separator">/</span>
-            <a href="service">Services</a>
+            <a href="services">Services</a>
             <span class="separator">/</span>
             <span class="current">UX/UI Design</span>
         </div>
@@ -30,7 +30,7 @@
                 <p>Whether you're starting a new product, redesigning an existing one, or optimizing specific user journeys, our comprehensive UX/UI design services will help you create digital experiences that users love and that drive measurable outcomes for your business.</p>
             </div>
             <div class="service-intro-image">
-                <img src="api/placeholder/600/400" alt="UX/UI Design" width="100%">
+                <img src="assets/images/UXUI_Design.webp" alt="UX/UI Design" width="100%">
             </div>
         </div>
     </section>
@@ -76,7 +76,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🎨</div>
+                    <div class="type-icon">                        <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="80%">
+</div>
                     <h3>UI Design</h3>
                     <p>Create visually stunning interfaces that align with your brand identity and enhance the user experience.</p>
                     <ul class="type-features">
@@ -162,7 +163,7 @@
             <div class="features-container">
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="User-Centered Approach" width="100%">
+                        <img src="assets/images/User-Centered-Approach.webp" alt="User-Centered Approach" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>User-Centered Approach</h3>
@@ -177,7 +178,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Business-Aligned Design" width="100%">
+                        <img src="assets/images/Business-Aligned-Design.webp" alt="Business-Aligned Design" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Business-Aligned Design</h3>
@@ -192,7 +193,7 @@
                 </div>
                 <div class="feature-item">
                     <div class="feature-image">
-                        <img src="api/placeholder/600/400" alt="Collaborative Process" width="100%">
+                        <img src="assets/images/Collaborative-Process.webp" alt="Collaborative Process" width="100%">
                     </div>
                     <div class="feature-content">
                         <h3>Collaborative Process</h3>
@@ -209,60 +210,57 @@
         </div>
     </section>
 
-    <section class="tools-section">
+    <section class="technologies">
         <div class="container">
             <div class="section-header">
                 <h2>Tools & Technologies We Use</h2>
                 <p>Industry-leading design and prototyping tools for efficient, effective workflow</p>
             </div>
-            <div class="tools-grid">
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>Fg</span>
+            <div class="technologies-grid">
+                <div class="tech-logo-item" title="Figma">
+                    <div class="tech-logo-wrapper" style="background-color: #02569B1A;">
+                        <img
+                            src="./assets/images/tech-logos/Figma.webp"
+                            alt="Figma Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Figma</p>
+                    <span class="tech-name">Figma</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>Sk</span>
+                <div class="tech-logo-item" title="Sketch">
+                    <div class="tech-logo-wrapper" style="background-color: #F7F7F7;">
+                        <img
+                            src="./assets/images/tech-logos/Sketch.webp"
+                            alt="Sketch Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Sketch</p>
+                    <span class="tech-name">Sketch</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>XD</span>
+                <div class="tech-logo-item" title="Adobe XD">
+                    <div class="tech-logo-wrapper" style="background-color: #4701371A;">
+                        <img
+                            src="./assets/images/tech-logos/Adobe-XD.webp"
+                            alt="Adobe XD Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Adobe XD</p>
+                    <span class="tech-name">Adobe XD</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>Ai</span>
+                <div class="tech-logo-item" title="Adobe Illustrator">
+                    <div class="tech-logo-wrapper" style="background-color: #FF9A001A;">
+                        <img
+                            src="./assets/images/tech-logos/Adobe-Illustrator.webp"
+                            alt="Adobe Illustrator Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Adobe Illustrator</p>
+                    <span class="tech-name">Adobe Illustrator</span>
                 </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>Ps</span>
+                <div class="tech-logo-item" title="Adobe Photoshop">
+                    <div class="tech-logo-wrapper" style="background-color: #001D3F1A;">
+                        <img
+                            src="./assets/images/tech-logos/Adobe-Photoshop.webp"
+                            alt="Adobe Photoshop Logo"
+                            class="tech-logo">
                     </div>
-                    <p>Adobe Photoshop</p>
-                </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>Pt</span>
-                    </div>
-                    <p>Principle</p>
-                </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>In</span>
-                    </div>
-                    <p>InVision</p>
-                </div>
-                <div class="tool-item">
-                    <div class="tool-icon">
-                        <span>Ht</span>
-                    </div>
-                    <p>Hotjar</p>
+                    <span class="tech-name">Adobe Photoshop</span>
                 </div>
             </div>
         </div>
@@ -277,7 +275,7 @@
             <div class="portfolio-grid">
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/HealthTrack.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>HealthTrack App Redesign</h3>
@@ -291,7 +289,7 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/FinInsight.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>FinTech Dashboard</h3>
@@ -305,7 +303,7 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="api/placeholder/400/250" alt="Portfolio Item" width="100%">
+                        <img src="assets/images/e-commerce-website-fashion-retailer.webp" alt="Portfolio Item" width="100%">
                     </div>
                     <div class="portfolio-content">
                         <h3>E-commerce UX Optimization</h3>
@@ -321,19 +319,7 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
-                <p>What our clients say about our UX/UI design services</p>
-            </div>
-            <div class="testimonial-container">
-                <p class="testimonial-text">Swat Info System's UX/UI design team transformed our product from a complex, confusing interface to an intuitive, enjoyable experience. Their user-centered approach and attention to detail made all the difference. Since implementing their redesign, we've seen a significant increase in user engagement and positive feedback from our customers.</p>
-                <p class="testimonial-author">Emily Richardson</p>
-                <p class="testimonial-position">Product Manager, TechSolutions Inc.</p>
-            </div>
-        </div>
-    </section>
+
 
     <section class="faqs">
         <div class="container">
