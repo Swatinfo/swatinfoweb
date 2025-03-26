@@ -1088,7 +1088,8 @@ section:nth-of-type(even) {
   width: 3.75rem; /* 60px */
   height: 3.75rem; /* 60px */
   /* background-color: var(--primary); */
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  /* background: linear-gradient(135deg, #4da0d8 0%, #4098d3 100%); */
+  background: linear-gradient(135deg, #2563eb2e 0%, #4098d369 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;

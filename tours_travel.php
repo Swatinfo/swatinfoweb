@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Tours & Travel ERP Solutions</h1>
             <p>Integrated enterprise systems that streamline bookings, operations, and customer management for travel businesses</p>
@@ -173,8 +176,8 @@
                     <p>Eliminate data silos with a unified system where information flows seamlessly between departments, processes, and business functions.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="benefit-icon"> <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="75%">
+                    </div>
                     <h3>Enhanced Customer Experience</h3>
                     <p>Deliver exceptional service with access to complete customer history, personalized offerings, and streamlined booking processes.</p>
                 </div>
@@ -189,8 +192,8 @@
                     <p>Gain better visibility into financial performance with integrated accounting, automated billing, and comprehensive financial reporting.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="benefit-icon"> <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="75%">
+                    </div>
                     <h3>Scalable Growth</h3>
                     <p>Support business expansion with a flexible ERP platform that can accommodate additional products, services, and markets.</p>
                 </div>

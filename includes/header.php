@@ -93,4 +93,5 @@ $seo = new SEOManager();
     <!-- Other head elements -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/page-banner.css">
 </head>

@@ -241,6 +241,7 @@ header {
 .page-banner h1 {
   font-size: 2.625rem;
   margin-bottom: var(--spacing-md);
+  color: #bad8f1 !important;
 }
 
 .page-banner p {
@@ -1161,7 +1162,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.0rem;
+  font-size: 2rem;
   background-color: var(--gray-light);
   border-radius: 50%;
   transition: background-color var(--transition-speed);
@@ -1315,7 +1316,7 @@ footer {
   justify-content: center;
   color: white;
   flex-shrink: 0;
-  font-size: 2.0rem !important;
+  font-size: 2rem !important;
 }
 
 /* Map Section */
@@ -1404,8 +1405,18 @@ footer {
   margin: 0 auto;
   margin-bottom: 1.25em;
   /* background-color: #2563eba6 !important; */
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
-  font-size: 2.0rem !important;
+  /* background: linear-gradient(135deg, #4da0d8 0%, #4098d3 100%); */
+  background: linear-gradient(135deg, #2563eb2e 0%, #4098d369 100%);
+  font-size: 2rem !important;
+}
+.type-icon img,
+.service-icon img,
+.challenge-icon img,
+.benefit-icon img,
+.feature-icon img,
+.value-icon img {
+  width: 70% !important;
+  height: 70% !important;
 }
 .portfolio-image,
 .case-study-image,
@@ -1507,3 +1518,5 @@ footer {
   color: white !important;
   border: 2px solid var(--primary) !important;
 }
+
+

@@ -41,7 +41,7 @@
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
-                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="80%">
+                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="75%">
                     </div>
                     <h3>Website Development</h3>
                     <p>Custom-built, responsive websites that engage visitors and drive conversions with modern design and functionality.</p>
@@ -49,35 +49,35 @@
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
-                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="75%">
                     </div>
                     <h3>Mobile App Development</h3>
                     <p>Native and cross-platform mobile applications that deliver exceptional user experiences across all devices.</p>
                     <a href="mobile_app_development" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon"> <img src="assets/images/icons/web-application.svg" alt="Web Application Development Icon" width="80%">
+                    <div class="service-icon"> <img src="assets/images/icons/web-application.svg" alt="Web Application Development Icon" width="75%">
                     </div>
                     <h3>Web App Development</h3>
                     <p>Powerful, scalable web applications that streamline processes and enhance productivity for your business.</p>
                     <a href="webapp_development" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon"> <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+                    <div class="service-icon"> <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="75%">
                     </div>
                     <h3>Digital Marketing</h3>
                     <p>Strategic digital marketing services to increase brand visibility, drive traffic, and generate qualified leads.</p>
                     <a href="digital_marketing" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon"> <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="80%">
+                    <div class="service-icon"> <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="75%">
                     </div>
                     <h3>UX/UI Design</h3>
                     <p>User-centric design that creates intuitive, engaging interfaces to enhance user satisfaction and loyalty.</p>
                     <a href="ux_ui" class="learn-more">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon"><img src="assets/images/icons/desktop-application.svg" alt="Desktop Icon" width="80%"></div>
+                    <div class="service-icon"><img src="assets/images/icons/desktop-application.svg" alt="Desktop Icon" width="75%"></div>
                     <h3>Desktop Applications</h3>
                     <p>Custom desktop solutions that optimize workflows and provide powerful tools for your specific needs.</p>
                     <a href="desktop_application" class="learn-more">Learn More →</a>

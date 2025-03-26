@@ -54,6 +54,9 @@ switch ($formType) {
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1><?php echo $title; ?></h1>
             <p>We appreciate your interest in Swat Info System</p>

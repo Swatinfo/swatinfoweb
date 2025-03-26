@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Digital Marketing</h1>
             <p>Strategic digital marketing services to increase brand visibility, drive traffic, and generate qualified leads</p>
@@ -43,7 +46,10 @@
             </div>
             <div class="types-grid">
                 <div class="type-card">
-                    <div class="type-icon">🔍</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/seo.svg" alt="Search Engine Optimization" width="75%">
+
+                    </div>
                     <h3>Search Engine Optimization (SEO)</h3>
                     <p>Improve your website's visibility in search engine results and drive organic traffic through strategic optimization.</p>
                     <ul class="type-features">
@@ -54,7 +60,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">💰</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/cost-per-click.svg" alt="Pay-Per-Click Advertising" width="75%">
+                    </div>
                     <h3>Pay-Per-Click Advertising (PPC)</h3>
                     <p>Drive immediate traffic and conversions with targeted paid advertising campaigns across search engines and display networks.</p>
                     <ul class="type-features">
@@ -65,8 +73,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/social-media.svg" alt="Social Media Marketing" width="75%">
+                    </div>
                     <h3>Social Media Marketing</h3>
                     <p>Build brand awareness, engage your audience, and drive traffic through strategic social media presence and campaigns.</p>
                     <ul class="type-features">
@@ -77,7 +86,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📝</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/content-marketing.svg" alt="Content Marketing" width="75%">
+
+                    </div>
                     <h3>Content Marketing</h3>
                     <p>Attract and engage your target audience with valuable, relevant content that establishes your expertise and builds trust.</p>
                     <ul class="type-features">
@@ -88,7 +100,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📊</div>
+                    <div class="type-icon"> <img src="assets/images/icons/email-marketing.svg" alt="Email Marketing" width="75%">
+                    </div>
                     <h3>Email Marketing</h3>
                     <p>Nurture leads, build customer relationships, and drive conversions with personalized email marketing campaigns.</p>
                     <ul class="type-features">
@@ -99,8 +112,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="type-icon"> <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="75%">
+                    </div>
                     <h3>Analytics & Reporting</h3>
                     <p>Gain valuable insights into your digital marketing performance and make data-driven decisions to optimize results.</p>
                     <ul class="type-features">

@@ -7,6 +7,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Web Application Development</h1>
             <p>Powerful, scalable web applications that streamline processes and enhance productivity</p>
@@ -46,7 +49,7 @@
             <div class="types-grid">
                 <div class="type-card">
                     <div class="type-icon">
-                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="80%">
+                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="75%">
                     </div>
                     <h3>Enterprise Applications</h3>
                     <p>Comprehensive solutions that integrate multiple business functions and streamline operations across your organization.</p>
@@ -58,7 +61,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">☁️</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/cloud.svg" alt="SaaS Applications" width="75%">
+                    </div>
                     <h3>SaaS Applications</h3>
                     <p>Cloud-based software solutions that provide on-demand access to services and functionality through subscription models.</p>
                     <ul class="type-features">
@@ -69,8 +74,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="75%">
+                    </div>
                     <h3>Progressive Web Apps</h3>
                     <p>Web applications that offer native-like experiences with offline capabilities, push notifications, and home screen installation.</p>
                     <ul class="type-features">
@@ -81,7 +87,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">👥</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/customer-centric.svg" alt="Customer Portals" width="75%">
+
+                    </div>
                     <h3>Customer Portals</h3>
                     <p>Secure platforms that enable customers to access information, manage accounts, and interact with your business services.</p>
                     <ul class="type-features">
@@ -92,7 +101,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🔄</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/content-management-system.svg" alt="Content Management Systems" width="75%">
+                    </div>
                     <h3>Content Management Systems</h3>
                     <p>Custom CMS solutions that go beyond templates to provide tailored content management workflows for your specific needs.</p>
                     <ul class="type-features">
@@ -103,7 +114,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📊</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/results-driven.svg" alt="Data Visualization Tools" width="75%">
+                    </div>
                     <h3>Data Visualization Tools</h3>
                     <p>Interactive applications that transform complex data into intuitive visualizations for better insights and decision-making.</p>
                     <ul class="type-features">

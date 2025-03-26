@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Real Estate ERP Solutions</h1>
             <p>Integrated enterprise systems to streamline property management, sales, and client relationships</p>
@@ -68,8 +71,8 @@
                     <p>Accessing and analyzing market data to make informed pricing decisions and provide valuable insights to clients.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="challenge-icon"> <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="75%">
+                    </div>
                     <h3>Remote Operations</h3>
                     <p>Enabling agents and property managers to access information and perform tasks while in the field or working remotely.</p>
                 </div>
@@ -174,8 +177,8 @@
                     <p>Eliminate data silos with a unified system where information flows seamlessly between property management, sales, and financial departments.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="benefit-icon"> <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="75%">
+                    </div>
                     <h3>Enhanced Client Experience</h3>
                     <p>Provide seamless, personalized client journeys from property search to transaction closing that drive satisfaction and referrals.</p>
                 </div>
@@ -190,8 +193,8 @@
                     <p>Gain better visibility into financial performance with integrated accounting, automated commission calculations, and comprehensive financial reporting.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="benefit-icon"> <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="75%">
+                    </div>
                     <h3>Scalable Growth</h3>
                     <p>Support business expansion with a flexible ERP platform that can accommodate growing property portfolios, additional agents, and new office locations.</p>
                 </div>

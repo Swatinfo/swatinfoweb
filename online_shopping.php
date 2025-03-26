@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>E-commerce & Retail ERP Solutions</h1>
             <p>Integrated enterprise systems that streamline online retail operations, inventory, and customer management</p>
@@ -163,8 +166,8 @@
             </div>
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="benefit-icon"> <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="75%">
+                    </div>
                     <h3>Increased Conversion Rates</h3>
                     <p>Optimize the shopping journey with accurate inventory, streamlined checkout, personalized experiences, and efficient fulfillment to boost conversions.</p>
                 </div>

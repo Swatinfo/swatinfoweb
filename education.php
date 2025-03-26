@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Education ERP Solutions</h1>
             <p>Integrated enterprise systems to streamline educational administration and enhance learning outcomes</p>
@@ -63,7 +66,7 @@
                     <p>Efficiently handling fee collection, financial aid, budgeting, accounting, and financial reporting across the institution.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+                    <div class="challenge-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="75%">
 </div>
                     <h3>Communication Gaps</h3>
                     <p>Facilitating effective communication and information sharing between administration, faculty, students, and parents/guardians.</p>
@@ -179,7 +182,7 @@
                     <p>Leverage comprehensive analytics and reporting to make informed decisions based on real-time data about student performance, resource utilization, and financial metrics.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
+                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="75%">
 </div>
                     <h3>Enhanced Communication</h3>
                     <p>Improve collaboration and information sharing between administration, faculty, students, and parents through integrated communication channels.</p>
@@ -190,7 +193,7 @@
                     <p>Ensure data security, privacy, and regulatory compliance with robust security features and role-based access controls.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
+                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="75%">
 </div>
                     <h3>Institutional Growth</h3>
                     <p>Support expansion with a scalable platform that can accommodate growing student numbers, new programs, and additional campuses.</p>

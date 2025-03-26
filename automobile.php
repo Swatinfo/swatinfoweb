@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Automobile Industry ERP Solutions</h1>
             <p>Comprehensive enterprise resource planning systems tailored for automotive businesses</p>
@@ -43,33 +46,49 @@
             </div>
             <div class="challenges-grid">
                 <div class="challenge-card">
-                    <div class="challenge-icon">📊</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/inventory.svg" alt="Complex Inventory Management" width="75%">
+
+                    </div>
                     <h3>Complex Inventory Management</h3>
                     <p>Managing diverse inventory across vehicles, parts, and accessories with different specifications, pricing, and availability across multiple locations.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">👥</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/crm.svg" alt="Customer Relationship Management" width="75%">
+
+                    </div>
                     <h3>Customer Relationship Management</h3>
                     <p>Tracking customer interactions, service history, and preferences to deliver personalized experiences and build long-term loyalty.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">🔧</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/service-operations-efficiency.svg" alt="Service Operations Efficiency" width="75%">
+
+                    </div>
                     <h3>Service Operations Efficiency</h3>
                     <p>Streamlining service department operations, technician scheduling, parts allocation, and maintenance tracking for maximum productivity.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">💰</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/financial-operations.svg" alt="Financial Management" width="75%">
+
+                    </div>
                     <h3>Financial Management</h3>
                     <p>Handling complex financial operations including vehicle financing, leasing, warranty claims, parts pricing, and service billing.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/growth.svg" alt="Data Analysis & Reporting" width="75%">
+                    </div>
                     <h3>Data Analysis & Reporting</h3>
                     <p>Generating comprehensive reports and actionable insights from diverse data sources to support strategic decision-making.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">⛓️</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/supply-chain-complexity.svg" alt="Supply Chain Complexity" width="75%">
+
+                    </div>
                     <h3>Supply Chain Complexity</h3>
                     <p>Managing relationships with manufacturers, parts suppliers, and other vendors while ensuring optimal inventory levels and delivery times.</p>
                 </div>
@@ -164,34 +183,48 @@
             </div>
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <div class="benefit-icon">⏱️</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/operational-efficiency.svg" alt="Operational Efficiency" width="100%">
+
+                    </div>
                     <h3>Operational Efficiency</h3>
                     <p>Streamline workflows, automate routine tasks, and optimize resource allocation to improve overall productivity and reduce operational costs.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">🔄</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/integration.svg" alt="Integrated Information Flow" width="100%">
+
+                    </div>
                     <h3>Integrated Information Flow</h3>
                     <p>Eliminate data silos with a unified system where information flows seamlessly between departments, locations, and business functions.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/customer-centric.svg" alt="Enhanced Customer Experience" width="75%">
+                    </div>
                     <h3>Enhanced Customer Experience</h3>
                     <p>Deliver exceptional service with access to complete customer and vehicle histories, personalized communications, and streamlined processes.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/analysis.svg" alt="Data-Driven Insights" width="75%">
+
+                    </div>
                     <h3>Data-Driven Insights</h3>
                     <p>Leverage comprehensive analytics and reporting to make informed business decisions based on real-time data and performance metrics.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">💰</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/financial-operations.svg" alt="Improved Financial Control" width="75%">
+
+                    </div>
                     <h3>Improved Financial Control</h3>
                     <p>Gain better visibility into financial performance with integrated accounting, automated billing, and comprehensive financial reporting.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/growth.svg" alt="Scalable Growth" width="75%">
+                    </div>
                     <h3>Scalable Growth</h3>
                     <p>Support business expansion with a flexible ERP platform that can accommodate additional locations, increased volume, and new business lines.</p>
                 </div>
