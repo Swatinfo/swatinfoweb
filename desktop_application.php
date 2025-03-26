@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Desktop Application Development</h1>
             <p>Custom desktop solutions that optimize workflows and provide powerful tools for your specific needs</p>
@@ -43,7 +46,10 @@
             </div>
             <div class="types-grid">
                 <div class="type-card">
-                    <div class="type-icon">📊</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/business-process.svg" alt="Business Process Applications" width="75%">
+
+                    </div>
                     <h3>Business Process Applications</h3>
                     <p>Custom applications designed to streamline specific business processes, automate workflows, and improve operational efficiency.</p>
                     <ul class="type-features">
@@ -54,8 +60,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/analysis.svg" alt="Data Analysis Tools" width="75%">
+                    </div>
                     <h3>Data Analysis Tools</h3>
                     <p>Powerful applications for data processing, analysis, and visualization that help businesses make informed decisions.</p>
                     <ul class="type-features">
@@ -66,7 +73,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🛠️</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/system-utilities.svg" alt="System Utilities" width="75%">
+
+                    </div>
                     <h3>System Utilities</h3>
                     <p>Specialized tools that enhance system performance, automate routine tasks, and provide essential functionality.</p>
                     <ul class="type-features">
@@ -77,7 +87,11 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🔄</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/data-management.svg" alt="Database Applications" width="75%">
+
+
+                    </div>
                     <h3>Database Applications</h3>
                     <p>Applications that facilitate efficient storage, management, and retrieval of data for your business operations.</p>
                     <ul class="type-features">
@@ -88,7 +102,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon"><img src="assets/images/icons/desktop-application.svg" alt="Desktop Icon" width="80%"></div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/cross-platform-applications.svg" alt="Cross-Platform Applications" width="75%">
+                    </div>
                     <h3>Cross-Platform Applications</h3>
                     <p>Applications that work seamlessly across Windows, macOS, and Linux, ensuring consistent functionality for all users.</p>
                     <ul class="type-features">
@@ -99,7 +115,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🔌</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/integration.svg" alt="System Integration Tools" width="75%">
+
+                    </div>
                     <h3>System Integration Tools</h3>
                     <p>Applications that connect and synchronize different software systems, enabling seamless data flow and process coordination.</p>
                     <ul class="type-features">
@@ -215,7 +234,7 @@
         </div>
     </section>
 
-    
+
 
     <section class="portfolio">
         <div class="container">

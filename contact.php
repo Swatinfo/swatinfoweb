@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Contact Us</h1>
             <p>Get in touch with our team for any inquiries or support needs</p>

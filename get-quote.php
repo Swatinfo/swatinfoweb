@@ -4,8 +4,10 @@
 <body>
     <!-- Header Include -->
     <?php include('includes/header_menu.php'); ?>
-
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Get a Custom Quote</h1>
             <p>Tell us about your project, and we'll provide a detailed proposal tailored to your needs</p>

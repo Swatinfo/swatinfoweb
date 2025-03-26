@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Mobile App Development</h1>
             <p>Native and cross-platform mobile applications that deliver exceptional user experiences</p>
@@ -43,7 +46,9 @@
             </div>
             <div class="types-grid">
                 <div class="type-card">
-                    <div class="type-icon">🍏</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/ios.svg" alt="iOS Applications" width="75%">
+                    </div>
                     <h3>iOS Applications</h3>
                     <p>Native applications built specifically for iOS devices, leveraging the full capabilities of Apple's ecosystem.</p>
                     <ul class="type-features">
@@ -54,7 +59,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🤖</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/android.svg" alt="Android Applications" width="75%">
+                    </div>
                     <h3>Android Applications</h3>
                     <p>Native applications designed for the diverse Android device landscape, maximizing performance and user experience.</p>
                     <ul class="type-features">
@@ -65,7 +72,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🔄</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/cross-platform.svg" alt="Cross-Platform Apps" width="75%">
+
+                    </div>
                     <h3>Cross-Platform Apps</h3>
                     <p>Applications that work seamlessly across iOS and Android platforms, offering cost-effective development and maintenance.</p>
                     <ul class="type-features">
@@ -77,7 +87,7 @@
                 </div>
                 <div class="type-card">
                     <div class="type-icon">
-                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="80%">
+                        <img src="assets/images/icons/website.svg" alt="Website Development Icon" width="75%">
                     </div>
                     <h3>Progressive Web Apps</h3>
                     <p>Web applications that provide a mobile app-like experience with offline capabilities and home screen installation.</p>
@@ -89,7 +99,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🏢</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/enterprise-mobility-solutions.svg" alt="Enterprise Mobility Solutions" width="75%">
+                    </div>
                     <h3>Enterprise Mobility Solutions</h3>
                     <p>Secure, scalable applications designed for internal business use, enhancing productivity and streamlining workflows.</p>
                     <ul class="type-features">
@@ -99,17 +111,7 @@
                         <li>Enterprise system integration</li>
                     </ul>
                 </div>
-                <div class="type-card">
-                    <div class="type-icon">🎮</div>
-                    <h3>AR/VR Applications</h3>
-                    <p>Cutting-edge applications that leverage augmented and virtual reality to create immersive user experiences.</p>
-                    <ul class="type-features">
-                        <li>AR Kit & AR Core integration</li>
-                        <li>3D modeling and animation</li>
-                        <li>Interactive experiences</li>
-                        <li>Performance optimization</li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
     </section>

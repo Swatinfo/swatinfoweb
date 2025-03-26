@@ -3,7 +3,11 @@
 <body>
     <!-- Header Include -->
     <?php include('includes/header_menu.php'); ?>
+
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Website Development</h1>
             <p>Custom-built, responsive websites that engage visitors and drive conversions</p>
@@ -42,7 +46,9 @@
             </div>
             <div class="types-grid">
                 <div class="type-card">
-                    <div class="type-icon">🏢</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/corporate-website.svg" alt="Corporate Websites" width="75%">
+                    </div>
                     <h3>Corporate Websites</h3>
                     <p>Professional websites that establish your brand identity and showcase your products or services.</p>
                     <ul class="type-features">
@@ -53,7 +59,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🛒</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/e-commerce.svg" alt="E-commerce Websites" width="75%">
+
+                    </div>
                     <h3>E-commerce Websites</h3>
                     <p>Powerful online stores that provide seamless shopping experiences and drive sales.</p>
                     <ul class="type-features">
@@ -64,7 +73,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📰</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/content-management-system.svg" alt="CMS Websites" width="75%">
+                    </div>
                     <h3>CMS Websites</h3>
                     <p>Dynamic websites built on content management systems for easy updates and scalability.</p>
                     <ul class="type-features">
@@ -75,8 +86,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/landing-pages.svg" alt="Landing Pages" width="75%">
+                    </div>
                     <h3>Landing Pages</h3>
                     <p>Conversion-focused pages designed to turn visitors into leads or customers.</p>
                     <ul class="type-features">
@@ -87,7 +99,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📊</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/portal.svg" alt="Portal Websites" width="75%">
+
+                    </div>
                     <h3>Portal Websites</h3>
                     <p>Comprehensive platforms that connect users, content, and services in a centralized location.</p>
                     <ul class="type-features">
@@ -98,8 +113,8 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">                        <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="80%">
-</div>
+                    <div class="type-icon"> <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="75%">
+                    </div>
                     <h3>Custom Websites</h3>
                     <p>Unique websites built from scratch to meet specific business requirements and stand out from the competition.</p>
                     <ul class="type-features">

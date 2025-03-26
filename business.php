@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Business ERP Solutions</h1>
             <p>Comprehensive enterprise resource planning systems to optimize processes, increase efficiency, and boost profitability</p>
@@ -43,34 +46,47 @@
             </div>
             <div class="challenges-grid">
                 <div class="challenge-card">
-                    <div class="challenge-icon">📊</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/data-fragmentation.svg" alt="Data Fragmentation" width="75%">
+
+                    </div>
                     <h3>Data Fragmentation</h3>
                     <p>Eliminating disconnected data silos and creating a single source of truth for all business information to enable better decision-making.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">⚙️</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/process-inefficiency.svg" alt="Process Inefficiency" width="75%">
+
+                    </div>
                     <h3>Process Inefficiency</h3>
                     <p>Streamlining workflows, eliminating redundancies, and automating manual processes to improve operational efficiency and reduce costs.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">🔍</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/limited-visibility.svg" alt="Limited Visibility" width="75%">
+                    </div>
                     <h3>Limited Visibility</h3>
                     <p>Providing real-time insights into all business operations, from inventory levels to financial performance, enabling proactive management.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">🤝</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/collaboration.svg" alt="Collaboration Barriers" width="75%">
+
+                    </div>
                     <h3>Collaboration Barriers</h3>
                     <p>Breaking down departmental silos and facilitating seamless information flow and collaboration across the organization.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">                        <img src="assets/images/icons/growth.svg" alt="Growth Icon" width="80%">
-</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/growth.svg" alt="Growth Limitations" width="75%">
+                    </div>
                     <h3>Growth Limitations</h3>
                     <p>Providing scalable infrastructure that can grow with your business, accommodating increasing transaction volumes, users, and complexity.</p>
                 </div>
                 <div class="challenge-card">
-                    <div class="challenge-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="challenge-icon">
+                        <img src="assets/images/icons/mobile.svg" alt="Mobile Accessibility" width="75%">
+                    </div>
                     <h3>Mobile Accessibility</h3>
                     <p>Enabling secure access to critical business information and processes from anywhere, supporting remote work and real-time decision-making.</p>
                 </div>
@@ -165,32 +181,50 @@
             </div>
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <div class="benefit-icon">⚡</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/increased-efficiency.svg" alt="Increased Efficiency" width="75%">
+
+                    </div>
                     <h3>Increased Efficiency</h3>
                     <p>Automate routine tasks, eliminate duplicate data entry, and streamline business processes to boost productivity across your organization.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/data-driven-decisions.svg" alt="Data-Driven Decisions" width="75%">
+
+                    </div>
                     <h3>Data-Driven Decisions</h3>
                     <p>Access real-time dashboards and comprehensive analytics to make informed decisions based on accurate, up-to-date business data.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">💰</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/cost-reduction.svg" alt="Cost Reduction" width="75%">
+
+                    </div>
                     <h3>Cost Reduction</h3>
                     <p>Minimize operational expenses through process optimization, resource management, reduced inventory costs, and elimination of inefficiencies.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">🔄</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/integration.svg" alt="Seamless Integration" width="75%">
+
+                    </div>
                     <h3>Seamless Integration</h3>
                     <p>Eliminate data silos with a unified system where information flows seamlessly between departments, processes, and business functions.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">🚀</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/growth.svg" alt="Scalable Growth" width="75%">
+
+                    </div>
                     <h3>Scalable Growth</h3>
                     <p>Deploy a flexible solution that can grow with your business, supporting increased transaction volumes, new business units, and geographic expansion.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">👥</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/collaboration.svg" alt="Enhanced Collaboration" width="75%">
+
+                    </div>
                     <h3>Enhanced Collaboration</h3>
                     <p>Improve team productivity and communication with collaborative tools that connect employees across departments and locations with shared data.</p>
                 </div>

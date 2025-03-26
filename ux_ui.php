@@ -5,6 +5,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>UX/UI Design</h1>
             <p>User-centric design that creates intuitive, engaging interfaces to enhance user satisfaction and loyalty</p>
@@ -43,7 +46,10 @@
             </div>
             <div class="types-grid">
                 <div class="type-card">
-                    <div class="type-icon">🔍</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/user-research.svg" alt="User Research" width="75%">
+
+                    </div>
                     <h3>User Research</h3>
                     <p>Gain deep insights into your users' needs, behaviors, and pain points to inform design decisions and create user-centered experiences.</p>
                     <ul class="type-features">
@@ -54,7 +60,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🗺️</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/ux-strategy.svg" alt="UX Strategy & Information Architecture" width="75%">
+
+                    </div>
                     <h3>UX Strategy & Information Architecture</h3>
                     <p>Create a solid foundation for your digital product with clear navigation, logical content organization, and intuitive user flows.</p>
                     <ul class="type-features">
@@ -65,7 +74,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📝</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/wireframing.svg" alt="Wireframing & Prototyping" width="75%">
+                    </div>
                     <h3>Wireframing & Prototyping</h3>
                     <p>Visualize and test your product's functionality and layout before development to save time and resources.</p>
                     <ul class="type-features">
@@ -76,8 +87,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">                        <img src="assets/images/icons/web-design.svg" alt="Design Icon" width="80%">
-</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/web-design.svg" alt="UI Design" width="75%">
+                    </div>
                     <h3>UI Design</h3>
                     <p>Create visually stunning interfaces that align with your brand identity and enhance the user experience.</p>
                     <ul class="type-features">
@@ -88,7 +100,10 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">🧩</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/design.svg" alt="Design Systems" width="75%">
+
+                    </div>
                     <h3>Design Systems</h3>
                     <p>Establish consistent, scalable design frameworks that improve efficiency and maintain design integrity across products.</p>
                     <ul class="type-features">
@@ -99,7 +114,9 @@
                     </ul>
                 </div>
                 <div class="type-card">
-                    <div class="type-icon">📊</div>
+                    <div class="type-icon">
+                        <img src="assets/images/icons/testing.svg" alt="Usability Testing & Optimization" width="75%">
+                    </div>
                     <h3>Usability Testing & Optimization</h3>
                     <p>Continuously improve your digital product based on real user feedback and behavior data.</p>
                     <ul class="type-features">

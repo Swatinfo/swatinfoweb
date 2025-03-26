@@ -6,6 +6,9 @@
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Enterprise Resource Planning Solutions</h1>
             <p>Comprehensive ERP systems tailored for your industry's unique requirements</p>
@@ -37,33 +40,49 @@
             </div>
             <div class="benefits-grid">
                 <div class="benefit-card">
-                    <div class="benefit-icon">🔄</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/unified-data-process.svg" alt="Unified Data & Processes" width="75%">
+
+                    </div>
                     <h3>Unified Data & Processes</h3>
                     <p>Eliminate data silos with a single source of truth across all departments, ensuring consistent information and streamlined workflows.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">📊</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/analysis.svg" alt="Real-Time Analytics" width="75%">
+
+                    </div>
                     <h3>Real-Time Analytics</h3>
                     <p>Access actionable insights through comprehensive dashboards and reports that provide visibility into all aspects of your business.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">⚙️</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/industry-specific-functionality.svg" alt="Real-Time Analytics" width="75%">
+
+                    </div>
                     <h3>Industry-Specific Functionality</h3>
                     <p>Leverage specialized modules and features designed to address the unique challenges and requirements of your industry.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">                        <img src="assets/images/icons/mobile.svg" alt="Mobile Application Development Icon" width="80%">
-</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/mobile.svg" alt="Mobile Accessibility" width="75%">
+                    </div>
                     <h3>Mobile Accessibility</h3>
                     <p>Access your business systems from anywhere, on any device, allowing for remote work and on-the-go decision making.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">🚀</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/scalable-architecture.svg" alt="Scalable Architecture" width="75%">
+
+                    </div>
                     <h3>Scalable Architecture</h3>
                     <p>Our ERP solutions grow with your business, accommodating increased users, transactions, and complexity as your needs evolve.</p>
                 </div>
                 <div class="benefit-card">
-                    <div class="benefit-icon">🔐</div>
+                    <div class="benefit-icon">
+                        <img src="assets/images/icons/enhanced-security.svg" alt="Enhanced Security" width="75%">
+
+                    </div>
                     <h3>Enhanced Security</h3>
                     <p>Protect your critical business data with robust security features, role-based access controls, and compliance safeguards.</p>
                 </div>
@@ -188,7 +207,7 @@
             <div class="process-card">
                 <div class="process-number">01</div>
                 <div class="process-icon">
-                    <img src="assets/images/icons/analysis.svg" alt="Business Analysis Icon" width="80%" style="color:white;">
+                    <img src="assets/images/icons/analysis.svg" alt="Business Analysis Icon" width="75%" style="color:white;">
                 </div>
                 <h3>Business Analysis & Requirements</h3>
                 <p>We conduct a thorough analysis of your current processes, challenges, and requirements to define the optimal ERP solution for your business.</p>

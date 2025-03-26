@@ -1,11 +1,15 @@
 <?php include('includes/header.php'); ?>
 <link rel="stylesheet" href="css/service.css">
 
+
 <body>
     <!-- Header Include -->
     <?php include('includes/header_menu.php'); ?>
 
     <section class="page-banner">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
         <div class="container">
             <h1>Our Technology Services</h1>
             <p>Innovative digital solutions that transform businesses through cutting-edge technology and strategic expertise</p>
@@ -138,10 +142,7 @@
             <div class="process-card">
                 <div class="process-number">01</div>
                 <div class="process-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <path d="M12 6v6l4 2"></path>
-                    </svg>
+                    <img src="assets/images/icons/discovery.svg" alt="Discovery & Strategy" width="75%">
                 </div>
                 <h3>Discovery & Strategy</h3>
                 <p>Deep dive into your business goals, target audience, and project requirements to develop a strategic roadmap.</p>
@@ -151,10 +152,8 @@
             <div class="process-card">
                 <div class="process-number">02</div>
                 <div class="process-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                    </svg>
+                    <img src="assets/images/icons/conceptualization.svg" alt="Design & Conceptualization" width="75%">
+
                 </div>
                 <h3>Design & Conceptualization</h3>
                 <p>Create wireframes, prototypes, and user experience designs that align with your vision and user needs.</p>
@@ -164,13 +163,7 @@
             <div class="process-card">
                 <div class="process-number">03</div>
                 <div class="process-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-                        <line x1="12" y1="22" x2="12" y2="15.5"></line>
-                        <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-                        <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-                        <line x1="12" y1="2" x2="12" y2="8.5"></line>
-                    </svg>
+                    <img src="assets/images/icons/integration.svg" alt="Development & Integration" width="75%">
                 </div>
                 <h3>Development & Integration</h3>
                 <p>Utilize cutting-edge technologies to build robust, scalable solutions with seamless system integrations.</p>
@@ -180,14 +173,8 @@
             <div class="process-card">
                 <div class="process-number">04</div>
                 <div class="process-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2v-2"></path>
-                        <path d="M18 14v4"></path>
-                        <path d="M18 10v4"></path>
-                        <path d="M12 12H4"></path>
-                        <path d="M12 16H4"></path>
-                        <path d="M8 8H4"></path>
-                    </svg>
+                    <img src="assets/images/icons/testing.svg" alt="Testing & Quality Assurance" width="75%">
+
                 </div>
                 <h3>Testing & Quality Assurance</h3>
                 <p>Rigorous testing across devices, performance benchmarks, and security protocols to ensure top-tier quality.</p>
@@ -197,11 +184,8 @@
             <div class="process-card">
                 <div class="process-number">05</div>
                 <div class="process-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
-                        <path d="M12 12v9"></path>
-                        <path d="m8 17 4 4 4-4"></path>
-                    </svg>
+                    <img src="assets/images/icons/deployment.svg" alt="Deployment & Launch" width="75%">
+
                 </div>
                 <h3>Deployment & Launch</h3>
                 <p>Smooth implementation with minimal disruption, providing comprehensive support during transition.</p>
@@ -211,15 +195,8 @@
             <div class="process-card">
                 <div class="process-number">06</div>
                 <div class="process-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 9V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h7"></path>
-                        <path d="M16 16v6"></path>
-                        <path d="M12 16v6"></path>
-                        <path d="M20 16v6"></path>
-                        <path d="M16 4v2.5"></path>
-                        <path d="M12 4v2.5"></path>
-                        <path d="M8 4v2.5"></path>
-                    </svg>
+                    <img src="assets/images/icons/continuous-support.svg" alt="Continuous Support" width="75%">
+
                 </div>
                 <h3>Continuous Support</h3>
                 <p>Ongoing maintenance, updates, and optimization to keep your digital solutions at the forefront of technology.</p>
@@ -303,22 +280,22 @@
                 <?php
                 $additionalServices = [
                     [
-                        'icon' => '📊',
+                        'icon' => '<img src="assets/images/icons/results-driven.svg" alt="Advanced Analytics" width="75%">',
                         'title' => 'Advanced Analytics',
                         'description' => 'Deep insights through comprehensive data analysis, visualization, and actionable intelligence.'
                     ],
                     [
-                        'icon' => '🛡️',
+                        'icon' => '<img src="assets/images/icons/cybersecurity.svg" alt="Cybersecurity" width="75%">',
                         'title' => 'Cybersecurity Services',
                         'description' => 'Robust protection strategies to safeguard your digital assets and sensitive information.'
                     ],
                     [
-                        'icon' => '☁️',
+                        'icon' => '<img src="assets/images/icons/cloud.svg" alt="Cloud Solutions" width="75%">',
                         'title' => 'Cloud Solutions',
                         'description' => 'Scalable cloud infrastructure and migration services for enhanced performance and flexibility.'
                     ],
                     [
-                        'icon' => '💾',
+                        'icon' => '<img src="assets/images/icons/data-management.svg" alt="Data Management" width="75%">',
                         'title' => 'Data Management',
                         'description' => 'Comprehensive database design, optimization, and management solutions.'
                     ]

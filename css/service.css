@@ -111,7 +111,8 @@ h1 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  /* background: linear-gradient(135deg, #4da0d8 0%, #4098d3 100%); */
+  background: linear-gradient(135deg, #2563eb2e 0%, #4098d369 100%);
   color: white;
   font-size: 1.8rem;
   box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
